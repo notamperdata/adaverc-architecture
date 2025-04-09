@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="500" y="20" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#202124">Adaverc: Google Forms Blockchain Verification System</text>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#5f6368">Architecture Overview</text>
+  
+  <!-- Google Cloud Section -->
+  <rect x="50" y="100" width="400" height="420" rx="10" ry="10" fill="#e8f0fe" stroke="#4285F4" stroke-width="2" opacity="0.7" />
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#4285F4">Google Ecosystem</text>
+  
+  <!-- Google Forms Icon -->
+  <rect x="100" y="160" width="300" height="120" rx="10" ry="10" fill="#ffffff" stroke="#4285F4" stroke-width="2" />
+  <rect x="120" y="180" width="50" height="50" rx="5" ry="5" fill="#673AB7" />
+  <text x="145" y="215" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">G</text>
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#202124">Google Forms</text>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Form Creation &amp; Response Collection</text>
+  
+  <!-- Adaverc Add-on Icon -->
+  <rect x="100" y="310" width="300" height="180" rx="10" ry="10" fill="#ffffff" stroke="#4285F4" stroke-width="2" />
+  <rect x="120" y="330" width="50" height="50" rx="5" ry="5" fill="#0033AD" />
+  <text x="145" y="365" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">A</text>
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#202124">Adaverc Add-on</text>
+  <line x1="120" y1="380" x2="380" y2="380" stroke="#e0e0e0" stroke-width="1" />
+  
+  <!-- Add-on Components -->
+  <text x="140" y="400" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Trigger Management</text>
+  <text x="140" y="425" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Response Processing</text>
+  <text x="140" y="450" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Deterministic Hashing</text>
+  <text x="140" y="475" font-family="Arial, sans-serif" font-size="12" fill="#202124">• API Communication</text>
+  
+  <!-- External System Section -->
+  <rect x="550" y="100" width="400" height="420" rx="10" ry="10" fill="#fef7e0" stroke="#FFC107" stroke-width="2" opacity="0.7" />
+  <text x="750" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#F57C00">External Verification System</text>
+  
+  <!-- API Service -->
+  <rect x="600" y="160" width="300" height="120" rx="10" ry="10" fill="#ffffff" stroke="#FFA000" stroke-width="2" />
+  <rect x="620" y="180" width="50" height="50" rx="5" ry="5" fill="#F57C00" />
+  <path d="M635 195 L655 195 L655 215 L635 215 Z M645 195 L645 215 M635 205 L655 205" stroke="#ffffff" stroke-width="2" fill="none" />
+  <text x="750" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#202124">API Service</text>
+  <text x="750" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5f6368">Secure Hash Storage &amp; Retrieval</text>
+  
+  <!-- Blockchain Integration -->
+  <rect x="600" y="310" width="300" height="180" rx="10" ry="10" fill="#ffffff" stroke="#FFA000" stroke-width="2" />
+  <rect x="620" y="330" width="50" height="50" rx="5" ry="5" fill="#0033AD" />
+  <!-- Cardano Logo Simplified -->
+  <circle cx="645" cy="355" r="15" fill="none" stroke="#ffffff" stroke-width="2" />
+  <path d="M637 355 L653 355 M645 347 L645 363" stroke="#ffffff" stroke-width="2" />
+  <text x="750" y="345" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#202124">Cardano Blockchain</text>
+  <line x1="620" y1="380" x2="880" y2="380" stroke="#e0e0e0" stroke-width="1" />
+  
+  <!-- Blockchain Components -->
+  <text x="640" y="400" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Immutable Hash Storage</text>
+  <text x="640" y="425" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Transaction Management</text>
+  <text x="640" y="450" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Verification Services</text>
+  <text x="640" y="475" font-family="Arial, sans-serif" font-size="12" fill="#202124">• Timestamp Certification</text>
+  
+  <!-- Connecting Arrows -->
+  <!-- Form to Add-on -->
+  <path d="M250 280 L250 310" stroke="#4285F4" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="270" y="295" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Form Responses</text>
+  
+  <!-- Add-on to API -->
+  <path d="M400 400 Q475 400, 550 220" stroke="#0033AD" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="475" y="390" font-family="Arial, sans-serif" font-size="12" fill="#0033AD" font-weight="bold">Hash + Metadata</text>
+  <text x="475" y="410" font-family="Arial, sans-serif" font-size="9" fill="#5f6368">(Response Data Stays in Google)</text>
+  
+  <!-- API to Blockchain -->
+  <path d="M750 280 L750 310" stroke="#F57C00" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="770" y="295" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Store Hash</text>
+  
+  <!-- Verification Flow -->
+  <rect x="50" y="550" width="900" height="30" rx="5" ry="5" fill="#e6f4ea" stroke="#34A853" stroke-width="1" />
+  <text x="500" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e8e3e">Verification Flow</text>
+  <path d="M150 550 L150 530 L850 530 L850 550" stroke="#34A853" stroke-width="2" fill="none" />
+  <path d="M150 530 L300 490" stroke="#34A853" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M850 530 L700 490" stroke="#34A853" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="170" y="510" font-family="Arial, sans-serif" font-size="12" fill="#34A853">Export Response Data</text>
+  <text x="800" y="510" font-family="Arial, sans-serif" font-size="12" fill="#34A853">Verify Hash</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34A853">Data Integrity Verification</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="20" width="20" height="20" fill="#e8f0fe" stroke="#4285F4" stroke-width="1" />
+  <text x="80" y="35" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Google Ecosystem</text>
+  
+  <rect x="200" y="20" width="20" height="20" fill="#fef7e0" stroke="#FFC107" stroke-width="1" />
+  <text x="230" y="35" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">External System</text>
+  
+  <rect x="350" y="20" width="20" height="20" fill="#e6f4ea" stroke="#34A853" stroke-width="1" />
+  <text x="380" y="35" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Verification Flow</text>
+  
+  <!-- Define arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>
