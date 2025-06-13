@@ -1,0 +1,173 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Hash Verification Process</text>
+  
+  <!-- Step 1: User Provides Data -->
+  <rect x="50" y="80" width="300" height="150" rx="10" fill="#ffffff" stroke="#4285f4" stroke-width="2"/>
+  <text x="200" y="105" text-anchor="middle" fill="#4285f4" font-size="16" font-weight="bold">Step 1: Data Input</text>
+  
+  <rect x="70" y="125" width="260" height="80" rx="5" fill="#e8f0fe" stroke="#1565c0" stroke-width="1"/>
+  <text x="200" y="145" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">User provides original form data</text>
+  <text x="200" y="160" text-anchor="middle" fill="#1565c0" font-size="11">for verification</text>
+  
+  <text x="80" y="180" fill="#1565c0" font-size="10">Example data:</text>
+  <text x="80" y="195" fill="#1565c0" font-size="10" font-family="monospace">{"name": "John Doe", "email": "john@example.com"}</text>
+  
+  <!-- Step 2: Hash Regeneration -->
+  <rect x="380" y="80" width="300" height="150" rx="10" fill="#ffffff" stroke="#9c27b0" stroke-width="2"/>
+  <text x="530" y="105" text-anchor="middle" fill="#9c27b0" font-size="16" font-weight="bold">Step 2: Hash Regeneration</text>
+  
+  <rect x="400" y="125" width="260" height="80" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="530" y="145" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">System regenerates SHA-256 hash</text>
+  <text x="530" y="160" text-anchor="middle" fill="#7b1fa2" font-size="11">using same algorithm</text>
+  
+  <text x="410" y="180" fill="#7b1fa2" font-size="10">Generated hash:</text>
+  <text x="410" y="195" fill="#7b1fa2" font-size="10" font-family="monospace">a1b2c3d4e5f6789012345678...</text>
+  
+  <!-- Step 3: Blockfrost Query -->
+  <rect x="710" y="80" width="300" height="150" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="860" y="105" text-anchor="middle" fill="#7c3aed" font-size="16" font-weight="bold">Step 3: Blockchain Query</text>
+  
+  <rect x="730" y="125" width="260" height="80" rx="5" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1"/>
+  <text x="860" y="145" text-anchor="middle" fill="#6b21a8" font-size="12" font-weight="bold">Query Blockfrost API</text>
+  <text x="860" y="160" text-anchor="middle" fill="#6b21a8" font-size="11">for metadata with Label 8434</text>
+  
+  <text x="740" y="180" fill="#6b21a8" font-size="10">API endpoint:</text>
+  <text x="740" y="195" fill="#6b21a8" font-size="10" font-family="monospace">GET /metadata/txs/labels/8434</text>
+  
+  <!-- Step 4: Hash Comparison -->
+  <rect x="1040" y="80" width="300" height="150" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="1190" y="105" text-anchor="middle" fill="#dc2626" font-size="16" font-weight="bold">Step 4: Hash Comparison</text>
+  
+  <rect x="1060" y="125" width="260" height="80" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1190" y="145" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Compare hashes</text>
+  <text x="1190" y="160" text-anchor="middle" fill="#b91c1c" font-size="11">and validate match</text>
+  
+  <text x="1070" y="180" fill="#b91c1c" font-size="10">Verification result:</text>
+  <text x="1070" y="195" fill="#b91c1c" font-size="10">✓ Hash found and verified</text>
+  
+  <!-- Detailed Blockfrost Integration -->
+  <rect x="50" y="260" width="1300" height="200" rx="10" fill="#ffffff" stroke="#0891b2" stroke-width="2"/>
+  <text x="700" y="285" text-anchor="middle" fill="#0891b2" font-size="18" font-weight="bold">Blockfrost API Integration Details</text>
+  
+  <!-- API Request -->
+  <rect x="80" y="310" width="380" height="120" rx="8" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="270" y="330" text-anchor="middle" fill="#0e7490" font-size="14" font-weight="bold">API Request Structure</text>
+  
+  <text x="100" y="350" fill="#0e7490" font-size="11"><tspan font-weight="bold">Method:</tspan> GET</text>
+  <text x="100" y="365" fill="#0e7490" font-size="11"><tspan font-weight="bold">URL:</tspan> https://cardano-mainnet.blockfrost.io/api/v0/metadata/txs/labels/8434</text>
+  <text x="100" y="380" fill="#0e7490" font-size="11"><tspan font-weight="bold">Headers:</tspan> {"project_id": "mainnetXXXXXXXXXXXX"}</text>
+  <text x="100" y="395" fill="#0e7490" font-size="11"><tspan font-weight="bold">Parameters:</tspan> ?order=desc&amp;count=100</text>
+  <text x="100" y="410" fill="#0e7490" font-size="11"><tspan font-weight="bold">Rate Limit:</tspan> 10 requests per second</text>
+  
+  <!-- API Response -->
+  <rect x="490" y="310" width="380" height="120" rx="8" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+  <text x="680" y="330" text-anchor="middle" fill="#0369a1" font-size="14" font-weight="bold">API Response Structure</text>
+  
+  <text x="510" y="350" fill="#0369a1" font-size="10" font-family="monospace">[</text>
+  <text x="530" y="365" fill="#0369a1" font-size="10" font-family="monospace">{</text>
+  <text x="550" y="380" fill="#0369a1" font-size="10" font-family="monospace">"tx_hash": "3f2a8c9d1e5b7a4f...",</text>
+  <text x="550" y="395" fill="#0369a1" font-size="10" font-family="monospace">"json_metadata": {"8434": {"hash": "a1b2c3...", ...}}</text>
+  <text x="530" y="410" fill="#0369a1" font-size="10" font-family="monospace">}</text>
+  <text x="510" y="425" fill="#0369a1" font-size="10" font-family="monospace">]</text>
+  
+  <!-- Hash Filtering -->
+  <rect x="900" y="310" width="380" height="120" rx="8" fill="#f0f9ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="1090" y="330" text-anchor="middle" fill="#1d4ed8" font-size="14" font-weight="bold">Hash Filtering Process</text>
+  
+  <text x="920" y="350" fill="#1d4ed8" font-size="11">1. Iterate through all transactions with label 8434</text>
+  <text x="920" y="365" fill="#1d4ed8" font-size="11">2. Extract hash from json_metadata.8434.hash</text>
+  <text x="920" y="380" fill="#1d4ed8" font-size="11">3. Compare with regenerated hash</text>
+  <text x="920" y="395" fill="#1d4ed8" font-size="11">4. Return match result with transaction details</text>
+  <text x="920" y="410" fill="#1d4ed8" font-size="11">5. Include timestamp and form metadata</text>
+  
+  <!-- Verification Result Generation -->
+  <rect x="50" y="490" width="1300" height="180" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="700" y="515" text-anchor="middle" fill="#16a34a" font-size="18" font-weight="bold">Verification Certificate Generation</text>
+  
+  <!-- Positive Verification -->
+  <rect x="80" y="540" width="380" height="100" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="270" y="560" text-anchor="middle" fill="#15803d" font-size="14" font-weight="bold">✓ Positive Verification</text>
+  
+  <text x="100" y="580" fill="#15803d" font-size="11"><tspan font-weight="bold">Status:</tspan> VERIFIED</text>
+  <text x="100" y="595" fill="#15803d" font-size="11"><tspan font-weight="bold">Transaction Hash:</tspan> 3f2a8c9d1e5b7a4f6c8e9d2a5b7c4f6e...</text>
+  <text x="100" y="610" fill="#15803d" font-size="11"><tspan font-weight="bold">Block Height:</tspan> 8,234,567</text>
+  <text x="100" y="625" fill="#15803d" font-size="11"><tspan font-weight="bold">Timestamp:</tspan> 2024-01-15 14:30:22 UTC</text>
+  
+  <!-- Negative Verification -->
+  <rect x="490" y="540" width="380" height="100" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="680" y="560" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">✗ Negative Verification</text>
+  
+  <text x="510" y="580" fill="#dc2626" font-size="11"><tspan font-weight="bold">Status:</tspan> NOT_FOUND</text>
+  <text x="510" y="595" fill="#dc2626" font-size="11"><tspan font-weight="bold">Reason:</tspan> Hash not found in blockchain</text>
+  <text x="510" y="610" fill="#dc2626" font-size="11"><tspan font-weight="bold">Searched:</tspan> 1,234 transactions with label 8434</text>
+  <text x="510" y="625" fill="#dc2626" font-size="11"><tspan font-weight="bold">Recommendation:</tspan> Verify original data integrity</text>
+  
+  <!-- Certificate Details -->
+  <rect x="900" y="540" width="380" height="100" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1"/>
+  <text x="1090" y="560" text-anchor="middle" fill="#374151" font-size="14" font-weight="bold">Certificate Components</text>
+  
+  <text x="920" y="580" fill="#374151" font-size="11">• Digital signature with system private key</text>
+  <text x="920" y="595" fill="#374151" font-size="11">• QR code linking to blockchain explorer</text>
+  <text x="920" y="610" fill="#374151" font-size="11">• PDF export with embedded metadata</text>
+  <text x="920" y="625" fill="#374151" font-size="11">• Public verification URL</text>
+  
+  <!-- Public Verification Methods -->
+  <rect x="50" y="700" width="1300" height="120" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="700" y="725" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="bold">Public Verification Methods</text>
+  
+  <!-- Blockchain Explorer -->
+  <rect x="80" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="205" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Blockchain Explorer</text>
+  <text x="205" y="785" text-anchor="middle" fill="#92400e" font-size="10">cardanoscan.io, cexplorer.io</text>
+  
+  <!-- Adaverc Public API -->
+  <rect x="360" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="485" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Adaverc Public API</text>
+  <text x="485" y="785" text-anchor="middle" fill="#92400e" font-size="10">verify.adaverc.com/hash/{hash}</text>
+  
+  <!-- Direct Blockfrost -->
+  <rect x="640" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="765" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Direct Blockfrost Query</text>
+  <text x="765" y="785" text-anchor="middle" fill="#92400e" font-size="10">API access with project key</text>
+  
+  <!-- Command Line Interface -->
+  <rect x="920" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="1045" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">CLI Tool</text>
+  <text x="1045" y="785" text-anchor="middle" fill="#92400e" font-size="10">Command line verification</text>
+  
+  <!-- Technical Specifications -->
+  <rect x="50" y="850" width="1300" height="80" rx="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="700" y="870" text-anchor="middle" fill="#334155" font-size="14" font-weight="bold">Technical Specifications</text>
+  <text x="70" y="890" fill="#475569" font-size="11">• Response Time: &lt;2 seconds for hash verification</text>
+  <text x="70" y="905" fill="#475569" font-size="11">• Accuracy: 100% match detection with cryptographic certainty</text>
+  <text x="70" y="920" fill="#475569" font-size="11">• Availability: 99.9% uptime via Blockfrost API redundancy</text>
+  
+  <text x="700" y="890" fill="#475569" font-size="11">• Scalability: Supports unlimited concurrent verifications</text>
+  <text x="700" y="905" fill="#475569" font-size="11">• Cost: Free for all users (read-only blockchain queries)</text>
+  <text x="700" y="920" fill="#475569" font-size="11">• Standards: Compatible with all Cardano blockchain explorers</text>
+  
+  <!-- Security Features -->
+  <rect x="50" y="950" width="1300" height="40" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="700" y="970" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Security &amp; Trust Features</text>
+  <text x="70" y="985" fill="#15803d" font-size="11">• Immutable Records: Blockchain storage prevents tampering • Cryptographic Hashing: SHA-256 ensures data integrity • Decentralized Verification: No single point of failure • Open Source: Transparent verification algorithms</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <line x1="350" y1="155" x2="370" y2="155" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="680" y1="155" x2="700" y2="155" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1010" y1="155" x2="1030" y2="155" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Flow Labels -->
+  <text x="360" y="145" text-anchor="middle" fill="#666" font-size="10" font-weight="bold">Hash</text>
+  <text x="690" y="145" text-anchor="middle" fill="#666" font-size="10" font-weight="bold">Query</text>
+  <text x="1020" y="145" text-anchor="middle" fill="#666" font-size="10" font-weight="bold">Verify</text>
+</svg>

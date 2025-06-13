@@ -1,0 +1,275 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Google Forms Add-on Internal Structure</text>
+  
+  <!-- Google Apps Script Container -->
+  <rect x="50" y="70" width="1100" height="780" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
+  <text x="600" y="100" text-anchor="middle" fill="#4285f4" font-size="20" font-weight="bold">Google Apps Script Runtime Environment</text>
+  
+  <!-- Trigger Management System -->
+  <rect x="80" y="130" width="350" height="200" rx="10" fill="#ffffff" stroke="#ff6d00" stroke-width="2"/>
+  <text x="255" y="155" text-anchor="middle" fill="#ff6d00" font-size="16" font-weight="bold">Trigger Management System</text>
+  
+  <!-- Form Submit Trigger -->
+  <rect x="100" y="175" width="140" height="50" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="170" y="195" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">Form Submit Trigger</text>
+  <text x="170" y="210" text-anchor="middle" fill="#e65100" font-size="10">onFormSubmit()</text>
+  <text x="170" y="220" text-anchor="middle" fill="#e65100" font-size="10">Instant response</text>
+  
+  <!-- Time-driven Trigger -->
+  <rect x="270" y="175" width="140" height="50" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="340" y="195" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">Time-driven Trigger</text>
+  <text x="340" y="210" text-anchor="middle" fill="#e65100" font-size="10">Scheduled batches</text>
+  <text x="340" y="220" text-anchor="middle" fill="#e65100" font-size="10">Configurable intervals</text>
+  
+  <!-- Trigger Lifecycle -->
+  <rect x="100" y="240" width="140" height="50" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="170" y="260" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">Lifecycle Manager</text>
+  <text x="170" y="275" text-anchor="middle" fill="#e65100" font-size="10">Install/Uninstall</text>
+  <text x="170" y="285" text-anchor="middle" fill="#e65100" font-size="10">onInstall()</text>
+  
+  <!-- Error Recovery -->
+  <rect x="270" y="240" width="140" height="50" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="340" y="260" text-anchor="middle" fill="#e65100" font-size="12" font-weight="bold">Error Recovery</text>
+  <text x="340" y="275" text-anchor="middle" fill="#e65100" font-size="10">Retry mechanisms</text>
+  <text x="340" y="285" text-anchor="middle" fill="#e65100" font-size="10">Failure handling</text>
+  
+  <!-- Trigger State -->
+  <rect x="185" y="305" width="140" height="20" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1"/>
+  <text x="255" y="318" text-anchor="middle" fill="#e65100" font-size="10">Trigger State Management</text>
+  
+  <!-- Response Processing Engine -->
+  <rect x="460" y="130" width="350" height="200" rx="10" fill="#ffffff" stroke="#34a853" stroke-width="2"/>
+  <text x="635" y="155" text-anchor="middle" fill="#34a853" font-size="16" font-weight="bold">Response Processing Engine</text>
+  
+  <!-- Data Extraction -->
+  <rect x="480" y="175" width="140" height="50" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="550" y="195" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">Data Extraction</text>
+  <text x="550" y="210" text-anchor="middle" fill="#2e7d32" font-size="10">FormResponse.getValues()</text>
+  <text x="550" y="220" text-anchor="middle" fill="#2e7d32" font-size="10">Field validation</text>
+  
+  <!-- Format Standardization -->
+  <rect x="650" y="175" width="140" height="50" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="720" y="195" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">Format Standardization</text>
+  <text x="720" y="210" text-anchor="middle" fill="#2e7d32" font-size="10">JSON normalization</text>
+  <text x="720" y="220" text-anchor="middle" fill="#2e7d32" font-size="10">Type conversion</text>
+  
+  <!-- Batch Processing -->
+  <rect x="480" y="240" width="140" height="50" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="550" y="260" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">Batch Processing</text>
+  <text x="550" y="275" text-anchor="middle" fill="#2e7d32" font-size="10">Multiple responses</text>
+  <text x="550" y="285" text-anchor="middle" fill="#2e7d32" font-size="10">Efficient iteration</text>
+  
+  <!-- Response Aggregation -->
+  <rect x="650" y="240" width="140" height="50" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="720" y="260" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">Response Aggregation</text>
+  <text x="720" y="275" text-anchor="middle" fill="#2e7d32" font-size="10">Metadata collection</text>
+  <text x="720" y="285" text-anchor="middle" fill="#2e7d32" font-size="10">Timestamp tracking</text>
+  
+  <!-- Processing State -->
+  <rect x="565" y="305" width="140" height="20" rx="3" fill="#a5d6a7" stroke="#4caf50" stroke-width="1"/>
+  <text x="635" y="318" text-anchor="middle" fill="#2e7d32" font-size="10">Processing State Cache</text>
+  
+  <!-- Hashing Implementation -->
+  <rect x="840" y="130" width="280" height="200" rx="10" fill="#ffffff" stroke="#9c27b0" stroke-width="2"/>
+  <text x="980" y="155" text-anchor="middle" fill="#9c27b0" font-size="16" font-weight="bold">Hashing Implementation</text>
+  
+  <!-- SHA-256 Algorithm -->
+  <rect x="860" y="175" width="120" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="920" y="195" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">SHA-256 Engine</text>
+  <text x="920" y="210" text-anchor="middle" fill="#7b1fa2" font-size="10">Utilities.computeDigest()</text>
+  <text x="920" y="220" text-anchor="middle" fill="#7b1fa2" font-size="10">Hex encoding</text>
+  
+  <!-- Data Normalization -->
+  <rect x="1000" y="175" width="100" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="1050" y="195" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">Normalization</text>
+  <text x="1050" y="210" text-anchor="middle" fill="#7b1fa2" font-size="10">UTF-8 encoding</text>
+  <text x="1050" y="220" text-anchor="middle" fill="#7b1fa2" font-size="10">Sorting keys</text>
+  
+  <!-- Hash Verification -->
+  <rect x="860" y="240" width="120" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="920" y="260" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">Hash Verification</text>
+  <text x="920" y="275" text-anchor="middle" fill="#7b1fa2" font-size="10">Format validation</text>
+  <text x="920" y="285" text-anchor="middle" fill="#7b1fa2" font-size="10">64-char hex check</text>
+  
+  <!-- Deterministic Processing -->
+  <rect x="1000" y="240" width="100" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="1050" y="260" text-anchor="middle" fill="#7b1fa2" font-size="12" font-weight="bold">Deterministic</text>
+  <text x="1050" y="275" text-anchor="middle" fill="#7b1fa2" font-size="10">Consistent output</text>
+  <text x="1050" y="285" text-anchor="middle" fill="#7b1fa2" font-size="10">Reproducible</text>
+  
+  <!-- Hash Cache -->
+  <rect x="930" y="305" width="100" height="20" rx="3" fill="#ce93d8" stroke="#ab47bc" stroke-width="1"/>
+  <text x="980" y="318" text-anchor="middle" fill="#7b1fa2" font-size="10">Hash Cache</text>
+  
+  <!-- API Communication -->
+  <rect x="80" y="360" width="520" height="180" rx="10" fill="#ffffff" stroke="#f44336" stroke-width="2"/>
+  <text x="340" y="385" text-anchor="middle" fill="#f44336" font-size="16" font-weight="bold">External API Communication</text>
+  
+  <!-- HTTPS Transport -->
+  <rect x="100" y="405" width="120" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="160" y="425" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">HTTPS Transport</text>
+  <text x="160" y="440" text-anchor="middle" fill="#c62828" font-size="10">UrlFetchApp.fetch()</text>
+  <text x="160" y="450" text-anchor="middle" fill="#c62828" font-size="10">TLS 1.2+</text>
+  
+  <!-- Authentication -->
+  <rect x="240" y="405" width="120" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="300" y="425" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Authentication</text>
+  <text x="300" y="440" text-anchor="middle" fill="#c62828" font-size="10">API key headers</text>
+  <text x="300" y="450" text-anchor="middle" fill="#c62828" font-size="10">Bearer tokens</text>
+  
+  <!-- Retry Logic -->
+  <rect x="380" y="405" width="120" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="440" y="425" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Retry Logic</text>
+  <text x="440" y="440" text-anchor="middle" fill="#c62828" font-size="10">Exponential backoff</text>
+  <text x="440" y="450" text-anchor="middle" fill="#c62828" font-size="10">Max 3 attempts</text>
+  
+  <!-- Rate Limiting -->
+  <rect x="520" y="405" width="120" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="580" y="425" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Rate Limiting</text>
+  <text x="580" y="440" text-anchor="middle" fill="#c62828" font-size="10">Request throttling</text>
+  <text x="580" y="450" text-anchor="middle" fill="#c62828" font-size="10">Queue management</text>
+  
+  <!-- Request Builder -->
+  <rect x="100" y="470" width="180" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="190" y="490" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Request Builder</text>
+  <text x="190" y="505" text-anchor="middle" fill="#c62828" font-size="10">JSON payload construction</text>
+  <text x="190" y="515" text-anchor="middle" fill="#c62828" font-size="10">Header management</text>
+  
+  <!-- Response Handler -->
+  <rect x="300" y="470" width="180" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="390" y="490" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Response Handler</text>
+  <text x="390" y="505" text-anchor="middle" fill="#c62828" font-size="10">Status code validation</text>
+  <text x="390" y="515" text-anchor="middle" fill="#c62828" font-size="10">Error parsing</text>
+  
+  <!-- Network Cache -->
+  <rect x="500" y="470" width="100" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="550" y="490" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Network Cache</text>
+  <text x="550" y="505" text-anchor="middle" fill="#c62828" font-size="10">Response caching</text>
+  <text x="550" y="515" text-anchor="middle" fill="#c62828" font-size="10">Timeout handling</text>
+  
+  <!-- Configuration Management -->
+  <rect x="640" y="360" width="480" height="180" rx="10" fill="#ffffff" stroke="#607d8b" stroke-width="2"/>
+  <text x="880" y="385" text-anchor="middle" fill="#607d8b" font-size="16" font-weight="bold">Configuration Management</text>
+  
+  <!-- User Interface -->
+  <rect x="660" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="720" y="425" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Settings UI</text>
+  <text x="720" y="440" text-anchor="middle" fill="#455a64" font-size="10">HTMLService</text>
+  <text x="720" y="450" text-anchor="middle" fill="#455a64" font-size="10">Modal dialogs</text>
+  
+  <!-- Account Linking -->
+  <rect x="800" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="860" y="425" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Account Linking</text>
+  <text x="860" y="440" text-anchor="middle" fill="#455a64" font-size="10">OAuth flow</text>
+  <text x="860" y="450" text-anchor="middle" fill="#455a64" font-size="10">API key storage</text>
+  
+  <!-- Preferences Storage -->
+  <rect x="940" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="1000" y="425" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Preferences</text>
+  <text x="1000" y="440" text-anchor="middle" fill="#455a64" font-size="10">PropertiesService</text>
+  <text x="1000" y="450" text-anchor="middle" fill="#455a64" font-size="10">Encrypted storage</text>
+  
+  <!-- Validation Rules -->
+  <rect x="1080" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="1140" y="425" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Validation Rules</text>
+  <text x="1140" y="440" text-anchor="middle" fill="#455a64" font-size="10">Form constraints</text>
+  <text x="1140" y="450" text-anchor="middle" fill="#455a64" font-size="10">Field mapping</text>
+  
+  <!-- Menu Integration -->
+  <rect x="660" y="470" width="180" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="750" y="490" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Menu Integration</text>
+  <text x="750" y="505" text-anchor="middle" fill="#455a64" font-size="10">onOpen() handlers</text>
+  <text x="750" y="515" text-anchor="middle" fill="#455a64" font-size="10">Custom menu items</text>
+  
+  <!-- Installation Manager -->
+  <rect x="860" y="470" width="180" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="950" y="490" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Installation Manager</text>
+  <text x="950" y="505" text-anchor="middle" fill="#455a64" font-size="10">First-time setup</text>
+  <text x="950" y="515" text-anchor="middle" fill="#455a64" font-size="10">Migration handling</text>
+  
+  <!-- Permission Manager -->
+  <rect x="1060" y="470" width="140" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="1130" y="490" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Permission Manager</text>
+  <text x="1130" y="505" text-anchor="middle" fill="#455a64" font-size="10">Scope authorization</text>
+  <text x="1130" y="515" text-anchor="middle" fill="#455a64" font-size="10">Security validation</text>
+  
+  <!-- Logging & Monitoring -->
+  <rect x="80" y="570" width="1040" height="120" rx="10" fill="#ffffff" stroke="#795548" stroke-width="2"/>
+  <text x="600" y="595" text-anchor="middle" fill="#795548" font-size="16" font-weight="bold">Logging &amp; Monitoring System</text>
+  
+  <!-- Execution Logger -->
+  <rect x="100" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="175" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Execution Logger</text>
+  <text x="175" y="650" text-anchor="middle" fill="#5d4037" font-size="10">console.log() wrapper</text>
+  <text x="175" y="660" text-anchor="middle" fill="#5d4037" font-size="10">Structured logging</text>
+  
+  <!-- Error Tracker -->
+  <rect x="270" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="345" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Error Tracker</text>
+  <text x="345" y="650" text-anchor="middle" fill="#5d4037" font-size="10">Exception capture</text>
+  <text x="345" y="660" text-anchor="middle" fill="#5d4037" font-size="10">Stack trace logging</text>
+  
+  <!-- Performance Monitor -->
+  <rect x="440" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="515" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Performance Monitor</text>
+  <text x="515" y="650" text-anchor="middle" fill="#5d4037" font-size="10">Execution time tracking</text>
+  <text x="515" y="660" text-anchor="middle" fill="#5d4037" font-size="10">Memory usage</text>
+  
+  <!-- Debug Interface -->
+  <rect x="610" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="685" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Debug Interface</text>
+  <text x="685" y="650" text-anchor="middle" fill="#5d4037" font-size="10">Manual trigger testing</text>
+  <text x="685" y="660" text-anchor="middle" fill="#5d4037" font-size="10">State inspection</text>
+  
+  <!-- Usage Analytics -->
+  <rect x="780" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="855" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Usage Analytics</text>
+  <text x="855" y="650" text-anchor="middle" fill="#5d4037" font-size="10">Operation counters</text>
+  <text x="855" y="660" text-anchor="middle" fill="#5d4037" font-size="10">Success/failure rates</text>
+  
+  <!-- Log Storage -->
+  <rect x="950" y="615" width="150" height="50" rx="5" fill="#efebe9" stroke="#5d4037" stroke-width="1"/>
+  <text x="1025" y="635" text-anchor="middle" fill="#5d4037" font-size="12" font-weight="bold">Log Storage</text>
+  <text x="1025" y="650" text-anchor="middle" fill="#5d4037" font-size="10">PropertiesService</text>
+  <text x="1025" y="660" text-anchor="middle" fill="#5d4037" font-size="10">Rotation policy</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Main flow arrows -->
+  <line x1="430" y1="230" x2="460" y2="230" stroke="#4caf50" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="810" y1="230" x2="840" y2="230" stroke="#4caf50" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="600" y1="330" x2="600" y2="350" stroke="#4caf50" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="880" y1="330" x2="880" y2="350" stroke="#4caf50" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Vertical connections -->
+  <line x1="340" y1="540" x2="340" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="880" y1="540" x2="880" y2="560" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Runtime Environment Details -->
+  <rect x="80" y="720" width="1040" height="100" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="600" y="740" text-anchor="middle" fill="#1565c0" font-size="14" font-weight="bold">Google Apps Script Runtime Constraints</text>
+  <text x="100" y="760" fill="#1565c0" font-size="12">• Execution Time Limit: 6 minutes per function call</text>
+  <text x="100" y="775" fill="#1565c0" font-size="12">• Daily Quotas: 20,000 triggers per day, 100 email sends</text>
+  <text x="100" y="790" fill="#1565c0" font-size="12">• Memory Limit: ~100MB per execution</text>
+  <text x="100" y="805" fill="#1565c0" font-size="12">• Network Requests: 20,000 URL fetch calls per day</text>
+  
+  <text x="600" y="760" fill="#1565c0" font-size="12">• Built-in Services: Forms, Sheets, Drive, Gmail integration</text>
+  <text x="600" y="775" fill="#1565c0" font-size="12">• Security: OAuth 2.0 scopes, sandboxed execution</text>
+  <text x="600" y="790" fill="#1565c0" font-size="12">• Storage: PropertiesService (up to 500KB)</text>
+  <text x="600" y="805" fill="#1565c0" font-size="12">• Deployment: Add-on published to Google Workspace Marketplace</text>
+  
+  <!-- Main Flow Labels -->
+  <text x="445" y="220" text-anchor="middle" fill="#4caf50" font-size="11" font-weight="bold">Data</text>
+  <text x="825" y="220" text-anchor="middle" fill="#4caf50" font-size="11" font-weight="bold">Hash</text>
+  <text x="590" y="345" text-anchor="middle" fill="#4caf50" font-size="11" font-weight="bold">API Call</text>
+  <text x="870" y="345" text-anchor="middle" fill="#4caf50" font-size="11" font-weight="bold">Config</text>
+</svg>

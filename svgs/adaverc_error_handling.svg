@@ -1,0 +1,243 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Error Handling &amp; Recovery Flow</text>
+  
+  <!-- Google Forms Add-on Error Handling -->
+  <rect x="50" y="80" width="650" height="320" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
+  <text x="375" y="110" text-anchor="middle" fill="#4285f4" font-size="18" font-weight="bold">Google Forms Add-on Error Handling</text>
+  
+  <!-- Trigger Failures -->
+  <rect x="80" y="140" width="280" height="120" rx="10" fill="#ffffff" stroke="#f44336" stroke-width="2"/>
+  <text x="220" y="165" text-anchor="middle" fill="#f44336" font-size="14" font-weight="bold">Trigger Failures</text>
+  
+  <rect x="100" y="185" width="120" height="60" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="160" y="205" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">Execution Timeout</text>
+  <text x="160" y="220" text-anchor="middle" fill="#c62828" font-size="10">6-minute limit</text>
+  <text x="160" y="235" text-anchor="middle" fill="#c62828" font-size="10">Auto-retry once</text>
+  
+  <rect x="240" y="185" width="120" height="60" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="300" y="205" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">Quota Exceeded</text>
+  <text x="300" y="220" text-anchor="middle" fill="#c62828" font-size="10">Daily limits</text>
+  <text x="300" y="235" text-anchor="middle" fill="#c62828" font-size="10">Queue for next day</text>
+  
+  <!-- Processing Errors -->
+  <rect x="390" y="140" width="280" height="120" rx="10" fill="#ffffff" stroke="#ff9800" stroke-width="2"/>
+  <text x="530" y="165" text-anchor="middle" fill="#ff9800" font-size="14" font-weight="bold">Processing Errors</text>
+  
+  <rect x="410" y="185" width="120" height="60" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="1"/>
+  <text x="470" y="205" text-anchor="middle" fill="#f57c00" font-size="11" font-weight="bold">Data Validation</text>
+  <text x="470" y="220" text-anchor="middle" fill="#f57c00" font-size="10">Invalid response</text>
+  <text x="470" y="235" text-anchor="middle" fill="#f57c00" font-size="10">Log &amp; skip</text>
+  
+  <rect x="550" y="185" width="120" height="60" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="1"/>
+  <text x="610" y="205" text-anchor="middle" fill="#f57c00" font-size="11" font-weight="bold">Hash Generation</text>
+  <text x="610" y="220" text-anchor="middle" fill="#f57c00" font-size="10">Algorithm failure</text>
+  <text x="610" y="235" text-anchor="middle" fill="#f57c00" font-size="10">Retry with backup</text>
+  
+  <!-- Network Failures -->
+  <rect x="80" y="280" width="590" height="100" rx="10" fill="#ffffff" stroke="#9c27b0" stroke-width="2"/>
+  <text x="375" y="305" text-anchor="middle" fill="#9c27b0" font-size="14" font-weight="bold">Network &amp; API Failures</text>
+  
+  <rect x="100" y="325" width="140" height="45" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="170" y="345" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Connection Timeout</text>
+  <text x="170" y="360" text-anchor="middle" fill="#7b1fa2" font-size="10">Exponential backoff</text>
+  
+  <rect x="260" y="325" width="140" height="45" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="330" y="345" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">API Rate Limit</text>
+  <text x="330" y="360" text-anchor="middle" fill="#7b1fa2" font-size="10">Delay &amp; retry</text>
+  
+  <rect x="420" y="325" width="140" height="45" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="490" y="345" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Server Error (5xx)</text>
+  <text x="490" y="360" text-anchor="middle" fill="#7b1fa2" font-size="10">Retry up to 3 times</text>
+  
+  <!-- External Application Error Handling -->
+  <rect x="750" y="80" width="600" height="320" rx="15" fill="#0f172a" fill-opacity="0.02" stroke="#0f172a" stroke-width="3"/>
+  <text x="1050" y="110" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">External Application Error Handling</text>
+  
+  <!-- API Gateway Errors -->
+  <rect x="780" y="140" width="280" height="120" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="920" y="165" text-anchor="middle" fill="#6366f1" font-size="14" font-weight="bold">API Gateway Errors</text>
+  
+  <rect x="800" y="185" width="120" height="60" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="860" y="205" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Authentication</text>
+  <text x="860" y="220" text-anchor="middle" fill="#4338ca" font-size="10">Invalid API key</text>
+  <text x="860" y="235" text-anchor="middle" fill="#4338ca" font-size="10">Return 401</text>
+  
+  <rect x="940" y="185" width="120" height="60" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="1000" y="205" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Input Validation</text>
+  <text x="1000" y="220" text-anchor="middle" fill="#4338ca" font-size="10">Malformed request</text>
+  <text x="1000" y="235" text-anchor="middle" fill="#4338ca" font-size="10">Return 400</text>
+  
+  <!-- Blockchain Errors -->
+  <rect x="1090" y="140" width="240" height="120" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="1210" y="165" text-anchor="middle" fill="#059669" font-size="14" font-weight="bold">Blockchain Errors</text>
+  
+  <rect x="1110" y="185" width="100" height="60" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="1160" y="205" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">UTxO Collision</text>
+  <text x="1160" y="220" text-anchor="middle" fill="#047857" font-size="10">Find new UTxO</text>
+  <text x="1160" y="235" text-anchor="middle" fill="#047857" font-size="10">Retry TX</text>
+  
+  <rect x="1230" y="185" width="100" height="60" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="1280" y="205" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">Network Congestion</text>
+  <text x="1280" y="220" text-anchor="middle" fill="#047857" font-size="10">Increase fees</text>
+  <text x="1280" y="235" text-anchor="middle" fill="#047857" font-size="10">Delayed retry</text>
+  
+  <!-- Service Failures -->
+  <rect x="780" y="280" width="550" height="100" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="1055" y="305" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Service &amp; Infrastructure Failures</text>
+  
+  <rect x="800" y="325" width="140" height="45" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="870" y="345" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Database Connection</text>
+  <text x="870" y="360" text-anchor="middle" fill="#b91c1c" font-size="10">Connection pooling</text>
+  
+  <rect x="960" y="325" width="140" height="45" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1030" y="345" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">External API Down</text>
+  <text x="1030" y="360" text-anchor="middle" fill="#b91c1c" font-size="10">Circuit breaker</text>
+  
+  <rect x="1120" y="325" width="140" height="45" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1190" y="345" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Memory/CPU Limit</text>
+  <text x="1190" y="360" text-anchor="middle" fill="#b91c1c" font-size="10">Auto-scaling</text>
+  
+  <!-- Retry Logic Details -->
+  <rect x="50" y="430" width="1300" height="200" rx="15" fill="#ffffff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="700" y="460" text-anchor="middle" fill="#7c3aed" font-size="18" font-weight="bold">Retry Logic &amp; Backoff Strategies</text>
+  
+  <!-- Exponential Backoff -->
+  <rect x="80" y="485" width="300" height="120" rx="10" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1"/>
+  <text x="230" y="510" text-anchor="middle" fill="#6b21a8" font-size="14" font-weight="bold">Exponential Backoff</text>
+  
+  <text x="100" y="530" fill="#6b21a8" font-size="11"><tspan font-weight="bold">Initial Delay:</tspan> 1 second</text>
+  <text x="100" y="545" fill="#6b21a8" font-size="11"><tspan font-weight="bold">Multiplier:</tspan> 2x each retry</text>
+  <text x="100" y="560" fill="#6b21a8" font-size="11"><tspan font-weight="bold">Max Delay:</tspan> 60 seconds</text>
+  <text x="100" y="575" fill="#6b21a8" font-size="11"><tspan font-weight="bold">Max Retries:</tspan> 3 attempts</text>
+  <text x="100" y="590" fill="#6b21a8" font-size="11"><tspan font-weight="bold">Jitter:</tspan> ±25% randomization</text>
+  
+  <!-- Circuit Breaker -->
+  <rect x="410" y="485" width="300" height="120" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1"/>
+  <text x="560" y="510" text-anchor="middle" fill="#ea580c" font-size="14" font-weight="bold">Circuit Breaker Pattern</text>
+  
+  <text x="430" y="530" fill="#ea580c" font-size="11"><tspan font-weight="bold">Failure Threshold:</tspan> 5 consecutive failures</text>
+  <text x="430" y="545" fill="#ea580c" font-size="11"><tspan font-weight="bold">Open Duration:</tspan> 30 seconds</text>
+  <text x="430" y="560" fill="#ea580c" font-size="11"><tspan font-weight="bold">Half-Open Test:</tspan> Single request test</text>
+  <text x="430" y="575" fill="#ea580c" font-size="11"><tspan font-weight="bold">Recovery:</tspan> Gradual load increase</text>
+  <text x="430" y="590" fill="#ea580c" font-size="11"><tspan font-weight="bold">Fallback:</tspan> Queue for later processing</text>
+  
+  <!-- Rate Limiting -->
+  <rect x="740" y="485" width="300" height="120" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="890" y="510" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Rate Limiting &amp; Queuing</text>
+  
+  <text x="760" y="530" fill="#16a34a" font-size="11"><tspan font-weight="bold">API Limits:</tspan> 1000 req/min per key</text>
+  <text x="760" y="545" fill="#16a34a" font-size="11"><tspan font-weight="bold">Burst Allowance:</tspan> 50 requests</text>
+  <text x="760" y="560" fill="#16a34a" font-size="11"><tspan font-weight="bold">Queue Size:</tspan> 1000 pending requests</text>
+  <text x="760" y="575" fill="#16a34a" font-size="11"><tspan font-weight="bold">TTL:</tspan> 5 minutes max wait</text>
+  <text x="760" y="590" fill="#16a34a" font-size="11"><tspan font-weight="bold">Priority:</tspan> FIFO with API key tiers</text>
+  
+  <!-- Dead Letter Queue -->
+  <rect x="1070" y="485" width="250" height="120" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="1195" y="510" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Dead Letter Queue</text>
+  
+  <text x="1090" y="530" fill="#dc2626" font-size="11"><tspan font-weight="bold">Max Retries:</tspan> After 3 failures</text>
+  <text x="1090" y="545" fill="#dc2626" font-size="11"><tspan font-weight="bold">Storage:</tspan> Persistent queue</text>
+  <text x="1090" y="560" fill="#dc2626" font-size="11"><tspan font-weight="bold">Manual Review:</tspan> Admin intervention</text>
+  <text x="1090" y="575" fill="#dc2626" font-size="11"><tspan font-weight="bold">Alerts:</tspan> Immediate notification</text>
+  <text x="1090" y="590" fill="#dc2626" font-size="11"><tspan font-weight="bold">Retention:</tspan> 30 days</text>
+  
+  <!-- Error Recovery Scenarios -->
+  <rect x="50" y="660" width="1300" height="180" rx="15" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+  <text x="700" y="690" text-anchor="middle" fill="#0891b2" font-size="18" font-weight="bold">Error Recovery Scenarios</text>
+  
+  <!-- Scenario 1: Temporary Network Issue -->
+  <rect x="80" y="715" width="250" height="100" rx="8" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="205" y="735" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">Scenario 1: Network Timeout</text>
+  
+  <text x="100" y="755" fill="#0e7490" font-size="10">1. Request times out after 30s</text>
+  <text x="100" y="770" fill="#0e7490" font-size="10">2. Wait 1s, retry (attempt 2)</text>
+  <text x="100" y="785" fill="#0e7490" font-size="10">3. If fails, wait 2s, retry (attempt 3)</text>
+  <text x="100" y="800" fill="#0e7490" font-size="10">4. If fails, wait 4s, final retry</text>
+  
+  <!-- Scenario 2: Blockchain Congestion -->
+  <rect x="360" y="715" width="250" height="100" rx="8" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+  <text x="485" y="735" text-anchor="middle" fill="#0369a1" font-size="12" font-weight="bold">Scenario 2: Blockchain Congestion</text>
+  
+  <text x="380" y="755" fill="#0369a1" font-size="10">1. Transaction fails with low fee</text>
+  <text x="380" y="770" fill="#0369a1" font-size="10">2. Analyze network conditions</text>
+  <text x="380" y="785" fill="#0369a1" font-size="10">3. Increase fee by 20%</text>
+  <text x="380" y="800" fill="#0369a1" font-size="10">4. Retry with higher priority</text>
+  
+  <!-- Scenario 3: UTxO Collision -->
+  <rect x="640" y="715" width="250" height="100" rx="8" fill="#f0f9ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="765" y="735" text-anchor="middle" fill="#1d4ed8" font-size="12" font-weight="bold">Scenario 3: UTxO Collision</text>
+  
+  <text x="660" y="755" fill="#1d4ed8" font-size="10">1. TX fails with UTxO conflict</text>
+  <text x="660" y="770" fill="#1d4ed8" font-size="10">2. Query available UTxOs</text>
+  <text x="660" y="785" fill="#1d4ed8" font-size="10">3. Select different UTxO</text>
+  <text x="660" y="800" fill="#1d4ed8" font-size="10">4. Rebuild &amp; submit transaction</text>
+  
+  <!-- Scenario 4: Service Outage -->
+  <rect x="920" y="715" width="250" height="100" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="1045" y="735" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Scenario 4: Service Outage</text>
+  
+  <text x="940" y="755" fill="#92400e" font-size="10">1. External API returns 503</text>
+  <text x="940" y="770" fill="#92400e" font-size="10">2. Circuit breaker opens</text>
+  <text x="940" y="785" fill="#92400e" font-size="10">3. Queue requests for 30s</text>
+  <text x="940" y="800" fill="#92400e" font-size="10">4. Test service, gradually resume</text>
+  
+  <!-- Monitoring & Alerting -->
+  <rect x="50" y="870" width="1300" height="100" rx="15" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+  <text x="700" y="900" text-anchor="middle" fill="#16a34a" font-size="18" font-weight="bold">Monitoring, Alerting &amp; Observability</text>
+  
+  <!-- Real-time Monitoring -->
+  <rect x="80" y="920" width="200" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="180" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Real-time Dashboards</text>
+  <text x="180" y="955" text-anchor="middle" fill="#15803d" font-size="10">Error rates, latency, throughput</text>
+  
+  <!-- Alert Thresholds -->
+  <rect x="300" y="920" width="200" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="400" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Alert Thresholds</text>
+  <text x="400" y="955" text-anchor="middle" fill="#15803d" font-size="10">&gt;5% error rate, &gt;10s latency</text>
+  
+  <!-- Log Aggregation -->
+  <rect x="520" y="920" width="200" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="620" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Log Aggregation</text>
+  <text x="620" y="955" text-anchor="middle" fill="#15803d" font-size="10">Centralized logging, search</text>
+  
+  <!-- Incident Response -->
+  <rect x="740" y="920" width="200" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="840" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Incident Response</text>
+  <text x="840" y="955" text-anchor="middle" fill="#15803d" font-size="10">Auto-escalation, on-call</text>
+  
+  <!-- Health Checks -->
+  <rect x="960" y="920" width="200" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="1060" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Health Checks</text>
+  <text x="1060" y="955" text-anchor="middle" fill="#15803d" font-size="10">Endpoint monitoring</text>
+  
+  <!-- Performance Metrics -->
+  <rect x="1180" y="920" width="140" height="40" rx="5" fill="#dcfce7" stroke="#15803d" stroke-width="1"/>
+  <text x="1250" y="940" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">SLA Tracking</text>
+  <text x="1250" y="955" text-anchor="middle" fill="#15803d" font-size="10">99.9% uptime goal</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+  </defs>
+  
+  <!-- Error propagation arrows -->
+  <line x1="700" y1="215" x2="750" y2="215" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <text x="725" y="205" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="bold">Error</text>
+  
+  <!-- Recovery flow -->
+  <line x1="700" y1="605" x2="700" y2="650" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="715" y="630" fill="#059669" font-size="11" font-weight="bold">Recovery</text>
+  
+  <!-- Monitoring connection -->
+  <line x1="700" y1="840" x2="700" y2="860" stroke="#16a34a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="715" y="855" fill="#16a34a" font-size="11" font-weight="bold">Monitor</text>
+</svg>

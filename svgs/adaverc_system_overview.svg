@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" class="title" fill="#1e293b" font-size="24" font-weight="bold">Adaverc System Architecture Overview</text>
+  
+  <!-- Google Ecosystem Box -->
+  <rect x="50" y="80" width="400" height="480" rx="15" fill="#4285f4" fill-opacity="0.1" stroke="#4285f4" stroke-width="2"/>
+  <text x="250" y="105" text-anchor="middle" fill="#4285f4" font-size="18" font-weight="bold">Google Ecosystem</text>
+  
+  <!-- Google Forms -->
+  <rect x="80" y="130" width="140" height="80" rx="8" fill="#34a853" stroke="#137333" stroke-width="2"/>
+  <text x="150" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Google Forms</text>
+  <text x="150" y="175" text-anchor="middle" fill="white" font-size="12">Form Responses</text>
+  <text x="150" y="190" text-anchor="middle" fill="white" font-size="12">Data Collection</text>
+  
+  <!-- Google Apps Script -->
+  <rect x="280" y="130" width="140" height="80" rx="8" fill="#ff6d00" stroke="#e65100" stroke-width="2"/>
+  <text x="350" y="150" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Google Apps</text>
+  <text x="350" y="165" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Script Runtime</text>
+  <text x="350" y="185" text-anchor="middle" fill="white" font-size="12">Add-on Execution</text>
+  <text x="350" y="200" text-anchor="middle" fill="white" font-size="12">Environment</text>
+  
+  <!-- Adaverc Add-on -->
+  <rect x="80" y="250" width="340" height="280" rx="10" fill="#ffffff" stroke="#4285f4" stroke-width="2"/>
+  <text x="250" y="275" text-anchor="middle" fill="#4285f4" font-size="16" font-weight="bold">Adaverc Google Forms Add-on</text>
+  
+  <!-- Add-on Components -->
+  <rect x="100" y="290" width="130" height="60" rx="5" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="165" y="310" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">Trigger Management</text>
+  <text x="165" y="325" text-anchor="middle" fill="#1565c0" font-size="11">Auto Execution</text>
+  <text x="165" y="340" text-anchor="middle" fill="#1565c0" font-size="11">Event Handling</text>
+  
+  <rect x="270" y="290" width="130" height="60" rx="5" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="335" y="310" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">Response Processing</text>
+  <text x="335" y="325" text-anchor="middle" fill="#1565c0" font-size="11">Data Extraction</text>
+  <text x="335" y="340" text-anchor="middle" fill="#1565c0" font-size="11">Standardization</text>
+  
+  <rect x="100" y="370" width="130" height="60" rx="5" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="165" y="390" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">Hash Generation</text>
+  <text x="165" y="405" text-anchor="middle" fill="#1565c0" font-size="11">SHA-256</text>
+  <text x="165" y="420" text-anchor="middle" fill="#1565c0" font-size="11">Deterministic</text>
+  
+  <rect x="270" y="370" width="130" height="60" rx="5" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="335" y="390" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">API Communication</text>
+  <text x="335" y="405" text-anchor="middle" fill="#1565c0" font-size="11">Secure Transmission</text>
+  <text x="335" y="420" text-anchor="middle" fill="#1565c0" font-size="11">Authentication</text>
+  
+  <rect x="185" y="450" width="130" height="60" rx="5" fill="#e8f0fe" stroke="#4285f4" stroke-width="1"/>
+  <text x="250" y="470" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">Configuration</text>
+  <text x="250" y="485" text-anchor="middle" fill="#1565c0" font-size="11">User Settings</text>
+  <text x="250" y="500" text-anchor="middle" fill="#1565c0" font-size="11">Account Linking</text>
+  
+  <!-- External Application Box -->
+  <rect x="550" y="80" width="400" height="480" rx="15" fill="#0f172a" fill-opacity="0.05" stroke="#0f172a" stroke-width="2"/>
+  <text x="750" y="105" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">External Infrastructure</text>
+  
+  <!-- Adaverc External Application -->
+  <rect x="580" y="130" width="340" height="400" rx="10" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <text x="750" y="155" text-anchor="middle" fill="#0f172a" font-size="16" font-weight="bold">Adaverc External Application</text>
+  
+  <!-- External App Components -->
+  <rect x="600" y="175" width="130" height="60" rx="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="665" y="195" text-anchor="middle" fill="#334155" font-size="12" font-weight="bold">API Gateway</text>
+  <text x="665" y="210" text-anchor="middle" fill="#334155" font-size="11">Request Routing</text>
+  <text x="665" y="225" text-anchor="middle" fill="#334155" font-size="11">Authentication</text>
+  
+  <rect x="770" y="175" width="130" height="60" rx="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="835" y="195" text-anchor="middle" fill="#334155" font-size="12" font-weight="bold">User Management</text>
+  <text x="835" y="210" text-anchor="middle" fill="#334155" font-size="11">Registration</text>
+  <text x="835" y="225" text-anchor="middle" fill="#334155" font-size="11">API Keys</text>
+  
+  <rect x="600" y="255" width="130" height="60" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="665" y="270" text-anchor="middle" fill="#15803d" font-size="12" font-weight="bold">Blockchain</text>
+  <text x="665" y="285" text-anchor="middle" fill="#15803d" font-size="12" font-weight="bold">Integration</text>
+  <text x="665" y="305" text-anchor="middle" fill="#15803d" font-size="11">Cardano Network</text>
+  
+  <rect x="770" y="255" width="130" height="60" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="835" y="275" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Verification Engine</text>
+  <text x="835" y="290" text-anchor="middle" fill="#92400e" font-size="11">Hash Comparison</text>
+  <text x="835" y="305" text-anchor="middle" fill="#92400e" font-size="11">Proof Generation</text>
+  
+  <rect x="685" y="335" width="130" height="60" rx="5" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="750" y="355" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Dashboard Interface</text>
+  <text x="750" y="370" text-anchor="middle" fill="#4338ca" font-size="11">Form Management</text>
+  <text x="750" y="385" text-anchor="middle" fill="#4338ca" font-size="11">Status Visualization</text>
+  
+  <!-- Cardano Blockchain -->
+  <rect x="600" y="415" width="300" height="80" rx="8" fill="#0033ad" stroke="#001d6b" stroke-width="2"/>
+  <text x="750" y="440" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Cardano Blockchain Network</text>
+  <text x="750" y="460" text-anchor="middle" fill="white" font-size="12">Smart Contract: adaverc_registry</text>
+  <text x="750" y="475" text-anchor="middle" fill="white" font-size="12">Metadata Storage (Label 8434)</text>
+  <text x="750" y="490" text-anchor="middle" fill="white" font-size="12">Immutable Hash Verification</text>
+  
+  <!-- Connection Arrow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+  </defs>
+  
+  <line x1="450" y1="400" x2="550" y2="400" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="500" y="385" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="bold">HTTPS API</text>
+  <text x="500" y="420" text-anchor="middle" fill="#ef4444" font-size="11">Hash + Metadata</text>
+  
+  <!-- Privacy Note -->
+  <rect x="200" y="540" width="600" height="40" rx="5" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="500" y="555" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">Privacy-First Design</text>
+  <text x="500" y="570" text-anchor="middle" fill="#dc2626" font-size="11">Only cryptographic hashes leave Google's secure environment</text>
+</svg>

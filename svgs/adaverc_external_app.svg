@@ -1,0 +1,345 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc External Application Architecture</text>
+  
+  <!-- Main Container -->
+  <rect x="50" y="70" width="1300" height="880" rx="15" fill="#0f172a" fill-opacity="0.02" stroke="#0f172a" stroke-width="3"/>
+  <text x="700" y="100" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="bold">Cloud Infrastructure - Next.js Application</text>
+  
+  <!-- API Gateway Layer -->
+  <rect x="80" y="130" width="1240" height="140" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="700" y="155" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="bold">API Gateway Layer</text>
+  
+  <!-- Request Router -->
+  <rect x="100" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="175" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Request Router</text>
+  <text x="175" y="210" text-anchor="middle" fill="#4338ca" font-size="10">/api/storehash</text>
+  <text x="175" y="225" text-anchor="middle" fill="#4338ca" font-size="10">/api/verify</text>
+  <text x="175" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Route handling</text>
+  
+  <!-- Authentication Middleware -->
+  <rect x="270" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="345" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Auth Middleware</text>
+  <text x="345" y="210" text-anchor="middle" fill="#4338ca" font-size="10">API key validation</text>
+  <text x="345" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Bearer token verify</text>
+  <text x="345" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Rate limiting</text>
+  
+  <!-- Input Validation -->
+  <rect x="440" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="515" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Input Validation</text>
+  <text x="515" y="210" text-anchor="middle" fill="#4338ca" font-size="10">Schema validation</text>
+  <text x="515" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Hash format check</text>
+  <text x="515" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Sanitization</text>
+  
+  <!-- CORS Handler -->
+  <rect x="610" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="685" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">CORS Handler</text>
+  <text x="685" y="210" text-anchor="middle" fill="#4338ca" font-size="10">Origin validation</text>
+  <text x="685" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Headers management</text>
+  <text x="685" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Preflight handling</text>
+  
+  <!-- Rate Limiter -->
+  <rect x="780" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="855" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Rate Limiter</text>
+  <text x="855" y="210" text-anchor="middle" fill="#4338ca" font-size="10">Request throttling</text>
+  <text x="855" y="225" text-anchor="middle" fill="#4338ca" font-size="10">IP-based limits</text>
+  <text x="855" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Circuit breaker</text>
+  
+  <!-- Response Formatter -->
+  <rect x="950" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="1025" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Response Formatter</text>
+  <text x="1025" y="210" text-anchor="middle" fill="#4338ca" font-size="10">JSON standardization</text>
+  <text x="1025" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Error formatting</text>
+  <text x="1025" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Status codes</text>
+  
+  <!-- Error Handler -->
+  <rect x="1120" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="1195" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Error Handler</text>
+  <text x="1195" y="210" text-anchor="middle" fill="#4338ca" font-size="10">Exception catching</text>
+  <text x="1195" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Error logging</text>
+  <text x="1195" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Recovery strategies</text>
+  
+  <!-- ADA-based Access Control System -->
+  <rect x="80" y="300" width="400" height="180" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="280" y="325" text-anchor="middle" fill="#8b5cf6" font-size="16" font-weight="bold">ADA-based Access Control System</text>
+  
+  <!-- Payment Monitor -->
+  <rect x="100" y="345" width="120" height="60" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="160" y="365" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">Payment Monitor</text>
+  <text x="160" y="380" text-anchor="middle" fill="#7c3aed" font-size="10">UTxO watching</text>
+  <text x="160" y="395" text-anchor="middle" fill="#7c3aed" font-size="10">ADA amount tracking</text>
+  
+  <!-- API Key Generator -->
+  <rect x="240" y="345" width="120" height="60" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="300" y="365" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">API Key Generator</text>
+  <text x="300" y="380" text-anchor="middle" fill="#7c3aed" font-size="10">Auto key creation</text>
+  <text x="300" y="395" text-anchor="middle" fill="#7c3aed" font-size="10">Usage tier mapping</text>
+  
+  <!-- Credit Manager -->
+  <rect x="380" y="345" width="120" height="60" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="440" y="365" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">Credit Manager</text>
+  <text x="440" y="380" text-anchor="middle" fill="#7c3aed" font-size="10">Usage tracking</text>
+  <text x="440" y="395" text-anchor="middle" fill="#7c3aed" font-size="10">Balance deduction</text>
+  
+  <!-- Wallet Scanner -->
+  <rect x="100" y="420" width="180" height="45" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="190" y="440" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">Wallet Scanner</text>
+  <text x="190" y="455" text-anchor="middle" fill="#7c3aed" font-size="10">Blockfrost integration, Transaction detection</text>
+  
+  <!-- Tier Calculator -->
+  <rect x="300" y="420" width="180" height="45" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="390" y="440" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">Tier Calculator</text>
+  <text x="390" y="455" text-anchor="middle" fill="#7c3aed" font-size="10">ADA → API calls conversion, Rate limits</text>
+  
+  <!-- Blockchain Integration Service -->
+  <rect x="520" y="300" width="400" height="180" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="720" y="325" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">Blockchain Integration Service</text>
+  
+  <!-- Transaction Builder -->
+  <rect x="540" y="345" width="120" height="60" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="600" y="365" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">TX Builder</text>
+  <text x="600" y="380" text-anchor="middle" fill="#047857" font-size="10">Lucid integration</text>
+  <text x="600" y="395" text-anchor="middle" fill="#047857" font-size="10">Metadata creation</text>
+  
+  <!-- Smart Contract Interface -->
+  <rect x="680" y="345" width="120" height="60" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="740" y="365" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Contract Interface</text>
+  <text x="740" y="380" text-anchor="middle" fill="#047857" font-size="10">adaverc_registry</text>
+  <text x="740" y="395" text-anchor="middle" fill="#047857" font-size="10">Validator calls</text>
+  
+  <!-- UTxO Manager -->
+  <rect x="820" y="345" width="120" height="60" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="880" y="365" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">UTxO Manager</text>
+  <text x="880" y="380" text-anchor="middle" fill="#047857" font-size="10">UTxO tracking</text>
+  <text x="880" y="395" text-anchor="middle" fill="#047857" font-size="10">Concurrency control</text>
+  
+  <!-- Network Interface -->
+  <rect x="540" y="420" width="120" height="45" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="600" y="440" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Network Interface</text>
+  <text x="600" y="455" text-anchor="middle" fill="#047857" font-size="10">Cardano node connection</text>
+  
+  <!-- Fee Optimizer -->
+  <rect x="680" y="420" width="120" height="45" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="740" y="440" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Fee Optimizer</text>
+  <text x="740" y="455" text-anchor="middle" fill="#047857" font-size="10">Dynamic fee calculation</text>
+  
+  <!-- Transaction Monitor -->
+  <rect x="820" y="420" width="120" height="45" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="880" y="440" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">TX Monitor</text>
+  <text x="880" y="455" text-anchor="middle" fill="#047857" font-size="10">Confirmation tracking</text>
+  
+  <!-- Verification Engine -->
+  <rect x="960" y="300" width="360" height="180" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="1140" y="325" text-anchor="middle" fill="#dc2626" font-size="16" font-weight="bold">Verification Engine</text>
+  
+  <!-- Hash Comparator -->
+  <rect x="980" y="345" width="120" height="60" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1040" y="365" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Hash Comparator</text>
+  <text x="1040" y="380" text-anchor="middle" fill="#b91c1c" font-size="10">SHA-256 validation</text>
+  <text x="1040" y="395" text-anchor="middle" fill="#b91c1c" font-size="10">Format checking</text>
+  
+  <!-- Blockchain Query -->
+  <rect x="1120" y="345" width="120" height="60" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1180" y="365" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Blockchain Query</text>
+  <text x="1180" y="380" text-anchor="middle" fill="#b91c1c" font-size="10">Blockfrost API</text>
+  <text x="1180" y="395" text-anchor="middle" fill="#b91c1c" font-size="10">Metadata search</text>
+  
+  <!-- Certificate Generator -->
+  <rect x="1260" y="345" width="120" height="60" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1320" y="365" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Cert Generator</text>
+  <text x="1320" y="380" text-anchor="middle" fill="#b91c1c" font-size="10">Proof creation</text>
+  <text x="1320" y="395" text-anchor="middle" fill="#b91c1c" font-size="10">Digital signatures</text>
+  
+  <!-- Audit Trail -->
+  <rect x="980" y="420" width="180" height="45" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1070" y="440" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Audit Trail</text>
+  <text x="1070" y="455" text-anchor="middle" fill="#b91c1c" font-size="10">Verification history, Compliance logging</text>
+  
+  <!-- Report Generator -->
+  <rect x="1180" y="420" width="180" height="45" rx="5" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1270" y="440" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Report Generator</text>
+  <text x="1270" y="455" text-anchor="middle" fill="#b91c1c" font-size="10">PDF reports, Export functionality</text>
+  
+  <!-- Dashboard Interface -->
+  <rect x="80" y="510" width="1240" height="120" rx="10" fill="#ffffff" stroke="#0891b2" stroke-width="2"/>
+  <text x="700" y="535" text-anchor="middle" fill="#0891b2" font-size="16" font-weight="bold">Minimal Dashboard Interface (Next.js Frontend)</text>
+  
+  <!-- API Key Status -->
+  <rect x="100" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="180" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">API Key Status</text>
+  <text x="180" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Usage tracking, Credits</text>
+  
+  <!-- Transaction History -->
+  <rect x="280" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="360" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">TX History</text>
+  <text x="360" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Blockchain records</text>
+  
+  <!-- Payment Instructions -->
+  <rect x="460" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="540" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">Payment Guide</text>
+  <text x="540" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Wallet address, Tiers</text>
+  
+  <!-- Hash Verification -->
+  <rect x="640" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="720" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">Hash Verification</text>
+  <text x="720" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Public verification</text>
+  
+  <!-- API Documentation -->
+  <rect x="820" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="900" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">API Docs</text>
+  <text x="900" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Integration guide</text>
+  
+  <!-- Public Explorer -->
+  <rect x="1000" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="1080" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">Public Explorer</text>
+  <text x="1080" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Blockchain browser</text>
+  
+  <!-- System Status -->
+  <rect x="1180" y="555" width="140" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="1250" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">System Status</text>
+  <text x="1250" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Health monitoring</text>
+  
+  <!-- Data Storage Layer -->
+  <rect x="80" y="660" width="1240" height="120" rx="10" fill="#ffffff" stroke="#7c2d12" stroke-width="2"/>
+  <text x="700" y="685" text-anchor="middle" fill="#7c2d12" font-size="16" font-weight="bold">Minimal Data Storage Layer</text>
+  
+  <!-- API Key Database -->
+  <rect x="100" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="190" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">API Key Store</text>
+  <text x="190" y="740" text-anchor="middle" fill="#9a3412" font-size="10">Key → Credits mapping</text>
+  
+  <!-- Transaction Records -->
+  <rect x="300" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="390" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">TX Records</text>
+  <text x="390" y="740" text-anchor="middle" fill="#9a3412" font-size="10">Hash → Blockchain TX</text>
+  
+  <!-- Usage Analytics -->
+  <rect x="500" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="590" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">Usage Metrics</text>
+  <text x="590" y="740" text-anchor="middle" fill="#9a3412" font-size="10">API call tracking</text>
+  
+  <!-- Payment Records -->
+  <rect x="700" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="790" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">Payment Records</text>
+  <text x="790" y="740" text-anchor="middle" fill="#9a3412" font-size="10">ADA payments tracking</text>
+  
+  <!-- Cache Layer -->
+  <rect x="900" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="990" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">Cache Layer</text>
+  <text x="990" y="740" text-anchor="middle" fill="#9a3412" font-size="10">Redis/Memory cache</text>
+  
+  <!-- Log Storage -->
+  <rect x="1100" y="705" width="200" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="1200" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">System Logs</text>
+  <text x="1200" y="740" text-anchor="middle" fill="#9a3412" font-size="10">Operations & security logs</text>
+  
+  <!-- External Services -->
+  <rect x="80" y="810" width="1240" height="80" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="700" y="835" text-anchor="middle" fill="#64748b" font-size="16" font-weight="bold">External Services &amp; APIs</text>
+  
+  <!-- Blockfrost API -->
+  <rect x="100" y="850" width="200" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="200" y="868" text-anchor="middle" fill="#475569" font-size="11">Blockfrost API (Cardano queries &amp; monitoring)</text>
+  
+  <!-- Cardano Node -->
+  <rect x="320" y="850" width="200" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="420" y="868" text-anchor="middle" fill="#475569" font-size="11">Cardano Node (transaction submission)</text>
+  
+  <!-- Monitoring -->
+  <rect x="540" y="850" width="200" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="640" y="868" text-anchor="middle" fill="#475569" font-size="11">System Monitoring (uptime &amp; performance)</text>
+  
+  <!-- CDN -->
+  <rect x="760" y="850" width="200" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="860" y="868" text-anchor="middle" fill="#475569" font-size="11">CDN (static assets &amp; docs)</text>
+  
+  <!-- Security Services -->
+  <rect x="980" y="850" width="220" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="1090" y="868" text-anchor="middle" fill="#475569" font-size="11">Security Services (WAF, DDoS protection)</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Vertical flow arrows -->
+  <line x1="280" y1="270" x2="280" y2="290" stroke="#8b5cf6" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="720" y1="270" x2="720" y2="290" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1140" y1="270" x2="1140" y2="290" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Horizontal connections -->
+  <line x1="480" y1="390" x2="520" y2="390" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="920" y1="390" x2="960" y2="390" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- To storage layer -->
+  <line x1="700" y1="630" x2="700" y2="650" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Payment Flow -->
+  <rect x="80" y="920" width="1240" height="60" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+  <text x="700" y="940" text-anchor="middle" fill="#1d4ed8" font-size="14" font-weight="bold">Web3 Payment Flow</text>
+  <text x="100" y="955" fill="#1d4ed8" font-size="11">1. User sends ADA to platform wallet → 2. System detects payment → 3. Auto-generates API key</text>
+  <text x="100" y="970" fill="#1d4ed8" font-size="11">4. Credits assigned based on ADA amount → 5. API calls deduct credits → 6. No registration required</text>
+  
+  <text x="800" y="955" fill="#1d4ed8" font-size="11">• 10 ADA = 1000 API calls • 50 ADA = 6000 API calls</text>
+  <text x="800" y="970" fill="#1d4ed8" font-size="11">• 100 ADA = 15000 API calls • Automatic tiering</text>
+  
+  <!-- Flow labels -->
+  <text x="270" y="285" text-anchor="middle" fill="#8b5cf6" font-size="10" font-weight="bold">Payment Auth</text>
+  <text x="710" y="285" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold">Blockchain</text>
+  <text x="1130" y="285" text-anchor="middle" fill="#dc2626" font-size="10" font-weight="bold">Verification</text>
+  <text x="500" y="385" text-anchor="middle" fill="#666" font-size="10">Request</text>
+  <text x="940" y="385" text-anchor="middle" fill="#666" font-size="10">Data</text>
+</svg> fill="#475569" font-size="11">Monitoring (DataDog/New Relic)</text>
+  
+  <!-- CDN -->
+  <rect x="700" y="850" width="180" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="790" y="868" text-anchor="middle" fill="#475569" font-size="11">CDN (static assets)</text>
+  
+  <!-- Payment Gateway -->
+  <rect x="900" y="850" width="180" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="990" y="868" text-anchor="middle" fill="#475569" font-size="11">Payment Gateway (subscriptions)</text>
+  
+  <!-- Security Services -->
+  <rect x="1100" y="850" width="200" height="30" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1"/>
+  <text x="1200" y="868" text-anchor="middle" fill="#475569" font-size="11">Security Services (WAF, DDoS)</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Vertical flow arrows -->
+  <line x1="280" y1="270" x2="280" y2="290" stroke="#8b5cf6" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="720" y1="270" x2="720" y2="290" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1140" y1="270" x2="1140" y2="290" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Horizontal connections -->
+  <line x1="480" y1="390" x2="520" y2="390" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="920" y1="390" x2="960" y2="390" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- To storage layer -->
+  <line x1="700" y1="630" x2="700" y2="650" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Performance Notes -->
+  <rect x="80" y="920" width="1240" height="50" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="700" y="940" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Infrastructure Specifications</text>
+  <text x="100" y="955" fill="#16a34a" font-size="11">• Deployment: Vercel/AWS/Docker containers • Auto-scaling based on load</text>
+  <text x="100" y="965" fill="#16a34a" font-size="11">• API Rate Limits: 1000 req/min per API key • Global CDN for static assets</text>
+  
+  <text x="700" y="955" fill="#16a34a" font-size="11">• Database: Multi-region replication • Redis caching layer</text>
+  <text x="700" y="965" fill="#16a34a" font-size="11">• Security: WAF, DDoS protection, encryption at rest & transit</text>
+  
+  <!-- Flow labels -->
+  <text x="270" y="285" text-anchor="middle" fill="#8b5cf6" font-size="10" font-weight="bold">User Auth</text>
+  <text x="710" y="285" text-anchor="middle" fill="#059669" font-size="10" font-weight="bold">Blockchain</text>
+  <text x="1130" y="285" text-anchor="middle" fill="#dc2626" font-size="10" font-weight="bold">Verification</text>
+  <text x="500" y="385" text-anchor="middle" fill="#666" font-size="10">Request</text>
+  <text x="940" y="385" text-anchor="middle" fill="#666" font-size="10">Data</text>
+</svg>

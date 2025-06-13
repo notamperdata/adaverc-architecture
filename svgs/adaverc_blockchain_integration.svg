@@ -1,0 +1,215 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Blockchain Integration with UTxO Management</text>
+  
+  <!-- External Application Section -->
+  <rect x="50" y="80" width="500" height="380" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="300" y="105" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">Adaverc External Application</text>
+  
+  <!-- Transaction Builder -->
+  <rect x="80" y="130" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="170" y="150" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Transaction Builder</text>
+  <text x="170" y="165" text-anchor="middle" fill="#047857" font-size="10">• Lucid integration</text>
+  <text x="170" y="180" text-anchor="middle" fill="#047857" font-size="10">• Metadata construction</text>
+  <text x="170" y="195" text-anchor="middle" fill="#047857" font-size="10">• Fee calculation</text>
+  
+  <!-- UTxO Manager -->
+  <rect x="290" y="130" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="380" y="150" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">UTxO Manager</text>
+  <text x="380" y="165" text-anchor="middle" fill="#047857" font-size="10">• UTxO tracking</text>
+  <text x="380" y="180" text-anchor="middle" fill="#047857" font-size="10">• Concurrency control</text>
+  <text x="380" y="195" text-anchor="middle" fill="#047857" font-size="10">• Pool management</text>
+  
+  <!-- Smart Contract Interface -->
+  <rect x="80" y="230" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="170" y="250" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Contract Interface</text>
+  <text x="170" y="265" text-anchor="middle" fill="#047857" font-size="10">• adaverc_registry</text>
+  <text x="170" y="280" text-anchor="middle" fill="#047857" font-size="10">• Validator calls</text>
+  <text x="170" y="295" text-anchor="middle" fill="#047857" font-size="10">• Script execution</text>
+  
+  <!-- Network Interface -->
+  <rect x="290" y="230" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="380" y="250" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Network Interface</text>
+  <text x="380" y="265" text-anchor="middle" fill="#047857" font-size="10">• Cardano node</text>
+  <text x="380" y="280" text-anchor="middle" fill="#047857" font-size="10">• Transaction submission</text>
+  <text x="380" y="295" text-anchor="middle" fill="#047857" font-size="10">• Confirmation tracking</text>
+  
+  <!-- Wallet Management -->
+  <rect x="185" y="330" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="275" y="350" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Platform Wallet</text>
+  <text x="275" y="365" text-anchor="middle" fill="#047857" font-size="10">• Private key management</text>
+  <text x="275" y="380" text-anchor="middle" fill="#047857" font-size="10">• Balance monitoring</text>
+  <text x="275" y="395" text-anchor="middle" fill="#047857" font-size="10">• Auto-funding</text>
+  
+  <!-- Cardano Blockchain Section -->
+  <rect x="600" y="80" width="750" height="380" rx="10" fill="#0033ad" fill-opacity="0.05" stroke="#0033ad" stroke-width="2"/>
+  <text x="975" y="105" text-anchor="middle" fill="#0033ad" font-size="16" font-weight="bold">Cardano Blockchain Network</text>
+  
+  <!-- Smart Contract -->
+  <rect x="630" y="130" width="200" height="100" rx="8" fill="#0033ad" stroke="#001d6b" stroke-width="2"/>
+  <text x="730" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">adaverc_registry</text>
+  <text x="730" y="175" text-anchor="middle" fill="white" font-size="12">Smart Contract</text>
+  <text x="730" y="195" text-anchor="middle" fill="white" font-size="11">Minimal validator</text>
+  <text x="730" y="210" text-anchor="middle" fill="white" font-size="11">UTxO structure</text>
+  
+  <!-- UTxO Pool -->
+  <rect x="860" y="130" width="200" height="100" rx="8" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="960" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Contract UTxO Pool</text>
+  <text x="960" y="175" text-anchor="middle" fill="white" font-size="12">Multiple UTxOs</text>
+  <text x="960" y="195" text-anchor="middle" fill="white" font-size="11">~2 ADA each</text>
+  <text x="960" y="210" text-anchor="middle" fill="white" font-size="11">Concurrency support</text>
+  
+  <!-- Metadata Storage -->
+  <rect x="1090" y="130" width="200" height="100" rx="8" fill="#3730a3" stroke="#312e81" stroke-width="2"/>
+  <text x="1190" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Metadata Storage</text>
+  <text x="1190" y="175" text-anchor="middle" fill="white" font-size="12">Label 8434</text>
+  <text x="1190" y="195" text-anchor="middle" fill="white" font-size="11">Hash + form data</text>
+  <text x="1190" y="210" text-anchor="middle" fill="white" font-size="11">Immutable records</text>
+  
+  <!-- Transaction Flow -->
+  <rect x="630" y="260" width="660" height="180" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="960" y="285" text-anchor="middle" fill="#334155" font-size="14" font-weight="bold">Hash Storage Transaction Flow</text>
+  
+  <!-- Input UTxO -->
+  <rect x="650" y="305" width="120" height="60" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="710" y="325" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Input UTxO</text>
+  <text x="710" y="340" text-anchor="middle" fill="#92400e" font-size="10">Platform wallet</text>
+  <text x="710" y="355" text-anchor="middle" fill="#92400e" font-size="10">~5-10 ADA</text>
+  
+  <!-- Transaction -->
+  <rect x="800" y="305" width="120" height="60" rx="5" fill="#ddd6fe" stroke="#7c3aed" stroke-width="1"/>
+  <text x="860" y="325" text-anchor="middle" fill="#6b21a8" font-size="12" font-weight="bold">Transaction</text>
+  <text x="860" y="340" text-anchor="middle" fill="#6b21a8" font-size="10">Smart contract</text>
+  <text x="860" y="355" text-anchor="middle" fill="#6b21a8" font-size="10">+ metadata</text>
+  
+  <!-- Output UTxOs -->
+  <rect x="950" y="285" width="120" height="40" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="1010" y="305" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Contract UTxO</text>
+  <text x="1010" y="318" text-anchor="middle" fill="#15803d" font-size="10">~2 ADA</text>
+  
+  <rect x="950" y="335" width="120" height="40" rx="5" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="1010" y="355" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Change UTxO</text>
+  <text x="1010" y="368" text-anchor="middle" fill="#15803d" font-size="10">Back to wallet</text>
+  
+  <!-- Metadata -->
+  <rect x="1100" y="305" width="120" height="60" rx="5" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="1160" y="325" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Metadata</text>
+  <text x="1160" y="340" text-anchor="middle" fill="#b91c1c" font-size="10">Label: 8434</text>
+  <text x="1160" y="355" text-anchor="middle" fill="#b91c1c" font-size="10">Hash + form ID</text>
+  
+  <!-- UTxO Management Details -->
+  <rect x="50" y="490" width="1300" height="200" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="700" y="515" text-anchor="middle" fill="#6366f1" font-size="16" font-weight="bold">UTxO Management Strategy</text>
+  
+  <!-- UTxO Pool Management -->
+  <rect x="80" y="540" width="250" height="120" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="205" y="560" text-anchor="middle" fill="#4338ca" font-size="14" font-weight="bold">UTxO Pool Management</text>
+  <text x="100" y="580" fill="#4338ca" font-size="11">• Maintain 5-10 contract UTxOs</text>
+  <text x="100" y="595" fill="#4338ca" font-size="11">• Each UTxO locked with ~2 ADA</text>
+  <text x="100" y="610" fill="#4338ca" font-size="11">• Concurrent transaction support</text>
+  <text x="100" y="625" fill="#4338ca" font-size="11">• Automatic UTxO replenishment</text>
+  <text x="100" y="640" fill="#4338ca" font-size="11">• Collision detection & retry</text>
+  
+  <!-- Concurrency Control -->
+  <rect x="360" y="540" width="250" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+  <text x="485" y="560" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Concurrency Control</text>
+  <text x="380" y="580" fill="#16a34a" font-size="11">• Lock UTxO before transaction</text>
+  <text x="380" y="595" fill="#16a34a" font-size="11">• Release on success/failure</text>
+  <text x="380" y="610" fill="#16a34a" font-size="11">• Queue management for high load</text>
+  <text x="380" y="625" fill="#16a34a" font-size="11">• Parallel processing support</text>
+  <text x="380" y="640" fill="#16a34a" font-size="11">• Timeout handling</text>
+  
+  <!-- Cost Optimization -->
+  <rect x="640" y="540" width="250" height="120" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1"/>
+  <text x="765" y="560" text-anchor="middle" fill="#ea580c" font-size="14" font-weight="bold">Cost Optimization</text>
+  <text x="660" y="580" fill="#ea580c" font-size="11">• Current: ~2.175 ADA per hash</text>
+  <text x="660" y="595" fill="#ea580c" font-size="11">• Future: UTxO cycling reduces to</text>
+  <text x="660" y="610" fill="#ea580c" font-size="11">  ~0.175 ADA (only fees)</text>
+  <text x="660" y="625" fill="#ea580c" font-size="11">• Batch processing for efficiency</text>
+  <text x="660" y="640" fill="#ea580c" font-size="11">• Dynamic fee adjustment</text>
+  
+  <!-- Monitoring & Health -->
+  <rect x="920" y="540" width="250" height="120" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="1045" y="560" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Monitoring & Health</text>
+  <text x="940" y="580" fill="#dc2626" font-size="11">• UTxO availability tracking</text>
+  <text x="940" y="595" fill="#dc2626" font-size="11">• Transaction confirmation rates</text>
+  <text x="940" y="610" fill="#dc2626" font-size="11">• Network congestion detection</text>
+  <text x="940" y="625" fill="#dc2626" font-size="11">• Automatic scaling triggers</text>
+  <text x="940" y="640" fill="#dc2626" font-size="11">• Health check endpoints</text>
+  
+  <!-- Verification Process -->
+  <rect x="50" y="720" width="1300" height="150" rx="10" fill="#ffffff" stroke="#0891b2" stroke-width="2"/>
+  <text x="700" y="745" text-anchor="middle" fill="#0891b2" font-size="16" font-weight="bold">Hash Verification Process</text>
+  
+  <!-- Step 1: Hash Query -->
+  <rect x="80" y="770" width="200" height="70" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="180" y="790" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">1. Hash Query</text>
+  <text x="180" y="805" text-anchor="middle" fill="#0e7490" font-size="10">User provides original data</text>
+  <text x="180" y="820" text-anchor="middle" fill="#0e7490" font-size="10">System regenerates hash</text>
+  
+  <!-- Step 2: Blockfrost Search -->
+  <rect x="300" y="770" width="200" height="70" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="400" y="790" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">2. Blockchain Search</text>
+  <text x="400" y="805" text-anchor="middle" fill="#0e7490" font-size="10">Blockfrost API query</text>
+  <text x="400" y="820" text-anchor="middle" fill="#0e7490" font-size="10">Label 8434 metadata</text>
+  
+  <!-- Step 3: Hash Comparison -->
+  <rect x="520" y="770" width="200" height="70" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="620" y="790" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">3. Hash Comparison</text>
+  <text x="620" y="805" text-anchor="middle" fill="#0e7490" font-size="10">Compare regenerated hash</text>
+  <text x="620" y="820" text-anchor="middle" fill="#0e7490" font-size="10">with blockchain record</text>
+  
+  <!-- Step 4: Certificate Generation -->
+  <rect x="740" y="770" width="200" height="70" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="840" y="790" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">4. Certificate</text>
+  <text x="840" y="805" text-anchor="middle" fill="#0e7490" font-size="10">Generate proof document</text>
+  <text x="840" y="820" text-anchor="middle" fill="#0e7490" font-size="10">Include TX hash reference</text>
+  
+  <!-- Step 5: Public Verification -->
+  <rect x="960" y="770" width="200" height="70" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="1060" y="790" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">5. Public Access</text>
+  <text x="1060" y="805" text-anchor="middle" fill="#0e7490" font-size="10">Anyone can verify</text>
+  <text x="1060" y="820" text-anchor="middle" fill="#0e7490" font-size="10">using blockchain explorer</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0891b2"/>
+    </marker>
+  </defs>
+  
+  <!-- Main transaction flow -->
+  <line x1="550" y1="270" x2="600" y2="270" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="770" y1="335" x2="790" y2="335" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="920" y1="335" x2="940" y2="335" stroke="#16a34a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1070" y1="335" x2="1090" y2="335" stroke="#dc2626" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Verification flow -->
+  <line x1="280" y1="805" x2="290" y2="805" stroke="#0891b2" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="500" y1="805" x2="510" y2="805" stroke="#0891b2" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="720" y1="805" x2="730" y2="805" stroke="#0891b2" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="940" y1="805" x2="950" y2="805" stroke="#0891b2" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  
+  <!-- Technical Specifications -->
+  <rect x="50" y="900" width="1300" height="80" rx="5" fill="#f0f9ff" stroke="#0369a1" stroke-width="1"/>
+  <text x="700" y="920" text-anchor="middle" fill="#0369a1" font-size="14" font-weight="bold">Technical Specifications</text>
+  <text x="70" y="940" fill="#0369a1" font-size="11">• Smart Contract: Plutus V3, minimal validator for UTxO structure</text>
+  <text x="70" y="955" fill="#0369a1" font-size="11">• Metadata: Label 8434, JSON structure with hash + form metadata</text>
+  <text x="70" y="970" fill="#0369a1" font-size="11">• Network: Cardano mainnet, Blockfrost API for queries</text>
+  
+  <text x="700" y="940" fill="#0369a1" font-size="11">• Concurrency: 5-10 parallel transactions supported</text>
+  <text x="700" y="955" fill="#0369a1" font-size="11">• Verification: Free public queries, instant response</text>
+  <text x="700" y="970" fill="#0369a1" font-size="11">• Security: Immutable blockchain storage, cryptographic hashing</text>
+  
+  <!-- Flow Labels -->
+  <text x="575" y="260" text-anchor="middle" fill="#059669" font-size="11" font-weight="bold">Submit TX</text>
+  <text x="785" y="325" text-anchor="middle" fill="#7c3aed" font-size="10">Process</text>
+  <text x="935" y="325" text-anchor="middle" fill="#16a34a" font-size="10">Outputs</text>
+  <text x="1085" y="325" text-anchor="middle" fill="#dc2626" font-size="10">Store</text>
+</svg>

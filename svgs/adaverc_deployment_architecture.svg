@@ -1,0 +1,237 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Deployment Architecture</text>
+  
+  <!-- Google Cloud Infrastructure -->
+  <rect x="50" y="80" width="600" height="380" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
+  <text x="350" y="110" text-anchor="middle" fill="#4285f4" font-size="18" font-weight="bold">Google Cloud Infrastructure</text>
+  
+  <!-- Google Apps Script -->
+  <rect x="80" y="140" width="250" height="150" rx="10" fill="#ffffff" stroke="#34a853" stroke-width="2"/>
+  <text x="205" y="165" text-anchor="middle" fill="#34a853" font-size="14" font-weight="bold">Google Apps Script</text>
+  
+  <rect x="100" y="185" width="210" height="80" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="205" y="205" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">Adaverc Add-on Runtime</text>
+  <text x="205" y="220" text-anchor="middle" fill="#2e7d32" font-size="10">• Serverless execution</text>
+  <text x="205" y="235" text-anchor="middle" fill="#2e7d32" font-size="10">• Auto-scaling (0-100 instances)</text>
+  <text x="205" y="250" text-anchor="middle" fill="#2e7d32" font-size="10">• 6-minute execution limit</text>
+  
+  <!-- Google Workspace -->
+  <rect x="360" y="140" width="250" height="150" rx="10" fill="#ffffff" stroke="#ff6d00" stroke-width="2"/>
+  <text x="485" y="165" text-anchor="middle" fill="#ff6d00" font-size="14" font-weight="bold">Google Workspace</text>
+  
+  <rect x="380" y="185" width="100" height="80" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="430" y="205" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">Google Forms</text>
+  <text x="430" y="220" text-anchor="middle" fill="#e65100" font-size="10">Form hosting</text>
+  <text x="430" y="235" text-anchor="middle" fill="#e65100" font-size="10">Response storage</text>
+  <text x="430" y="250" text-anchor="middle" fill="#e65100" font-size="10">Trigger events</text>
+  
+  <rect x="490" y="185" width="100" height="80" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="540" y="205" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">Google Sheets</text>
+  <text x="540" y="220" text-anchor="middle" fill="#e65100" font-size="10">Data storage</text>
+  <text x="540" y="235" text-anchor="middle" fill="#e65100" font-size="10">Analytics</text>
+  <text x="540" y="250" text-anchor="middle" fill="#e65100" font-size="10">Export tools</text>
+  
+  <!-- Google Cloud Services -->
+  <rect x="80" y="320" width="530" height="120" rx="10" fill="#ffffff" stroke="#1976d2" stroke-width="2"/>
+  <text x="345" y="345" text-anchor="middle" fill="#1976d2" font-size="14" font-weight="bold">Google Cloud Platform Services</text>
+  
+  <rect x="100" y="360" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="160" y="380" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Identity &amp; Access</text>
+  <text x="160" y="395" text-anchor="middle" fill="#1565c0" font-size="10">OAuth 2.0</text>
+  <text x="160" y="410" text-anchor="middle" fill="#1565c0" font-size="10">API management</text>
+  
+  <rect x="240" y="360" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="300" y="380" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Cloud Functions</text>
+  <text x="300" y="395" text-anchor="middle" fill="#1565c0" font-size="10">Backup processing</text>
+  <text x="300" y="410" text-anchor="middle" fill="#1565c0" font-size="10">Monitoring</text>
+  
+  <rect x="380" y="360" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="440" y="380" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Cloud Storage</text>
+  <text x="440" y="395" text-anchor="middle" fill="#1565c0" font-size="10">Logs &amp; backups</text>
+  <text x="440" y="410" text-anchor="middle" fill="#1565c0" font-size="10">Static assets</text>
+  
+  <rect x="520" y="360" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="580" y="380" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Cloud Monitoring</text>
+  <text x="580" y="395" text-anchor="middle" fill="#1565c0" font-size="10">Performance</text>
+  <text x="580" y="410" text-anchor="middle" fill="#1565c0" font-size="10">Error tracking</text>
+  
+  <!-- External Infrastructure -->
+  <rect x="750" y="80" width="600" height="380" rx="15" fill="#0f172a" fill-opacity="0.02" stroke="#0f172a" stroke-width="3"/>
+  <text x="1050" y="110" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">External Infrastructure</text>
+  
+  <!-- Next.js Application -->
+  <rect x="780" y="140" width="250" height="150" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="905" y="165" text-anchor="middle" fill="#059669" font-size="14" font-weight="bold">Next.js Application</text>
+  
+  <rect x="800" y="185" width="210" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="905" y="205" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Adaverc API Server</text>
+  <text x="905" y="220" text-anchor="middle" fill="#047857" font-size="10">• Vercel deployment</text>
+  <text x="905" y="235" text-anchor="middle" fill="#047857" font-size="10">• Auto-scaling serverless</text>
+  <text x="905" y="250" text-anchor="middle" fill="#047857" font-size="10">• Global edge network</text>
+  
+  <!-- Database Layer -->
+  <rect x="1080" y="140" width="250" height="150" rx="10" fill="#ffffff" stroke="#7c2d12" stroke-width="2"/>
+  <text x="1205" y="165" text-anchor="middle" fill="#7c2d12" font-size="14" font-weight="bold">Database Layer</text>
+  
+  <rect x="1100" y="185" width="100" height="80" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="1150" y="205" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">PostgreSQL</text>
+  <text x="1150" y="220" text-anchor="middle" fill="#9a3412" font-size="10">API keys</text>
+  <text x="1150" y="235" text-anchor="middle" fill="#9a3412" font-size="10">TX records</text>
+  <text x="1150" y="250" text-anchor="middle" fill="#9a3412" font-size="10">Usage metrics</text>
+  
+  <rect x="1210" y="185" width="100" height="80" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="1260" y="205" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">Redis Cache</text>
+  <text x="1260" y="220" text-anchor="middle" fill="#9a3412" font-size="10">Session store</text>
+  <text x="1260" y="235" text-anchor="middle" fill="#9a3412" font-size="10">Rate limiting</text>
+  <text x="1260" y="250" text-anchor="middle" fill="#9a3412" font-size="10">API cache</text>
+  
+  <!-- External Services -->
+  <rect x="780" y="320" width="550" height="120" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="1055" y="345" text-anchor="middle" fill="#6b7280" font-size="14" font-weight="bold">External Services &amp; APIs</text>
+  
+  <rect x="800" y="360" width="120" height="60" rx="5" fill="#f3f4f6" stroke="#4b5563" stroke-width="1"/>
+  <text x="860" y="380" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">Blockfrost API</text>
+  <text x="860" y="395" text-anchor="middle" fill="#374151" font-size="10">Cardano queries</text>
+  <text x="860" y="410" text-anchor="middle" fill="#374151" font-size="10">Metadata search</text>
+  
+  <rect x="940" y="360" width="120" height="60" rx="5" fill="#f3f4f6" stroke="#4b5563" stroke-width="1"/>
+  <text x="1000" y="380" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">Cardano Node</text>
+  <text x="1000" y="395" text-anchor="middle" fill="#374151" font-size="10">TX submission</text>
+  <text x="1000" y="410" text-anchor="middle" fill="#374151" font-size="10">Network access</text>
+  
+  <rect x="1080" y="360" width="120" height="60" rx="5" fill="#f3f4f6" stroke="#4b5563" stroke-width="1"/>
+  <text x="1140" y="380" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">Monitoring</text>
+  <text x="1140" y="395" text-anchor="middle" fill="#374151" font-size="10">DataDog/Sentry</text>
+  <text x="1140" y="410" text-anchor="middle" fill="#374151" font-size="10">Performance</text>
+  
+  <rect x="1220" y="360" width="120" height="60" rx="5" fill="#f3f4f6" stroke="#4b5563" stroke-width="1"/>
+  <text x="1280" y="380" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">CDN</text>
+  <text x="1280" y="395" text-anchor="middle" fill="#374151" font-size="10">Static assets</text>
+  <text x="1280" y="410" text-anchor="middle" fill="#374151" font-size="10">Global delivery</text>
+  
+  <!-- Cardano Blockchain Network -->
+  <rect x="50" y="490" width="1300" height="120" rx="15" fill="#0033ad" fill-opacity="0.05" stroke="#0033ad" stroke-width="3"/>
+  <text x="700" y="520" text-anchor="middle" fill="#0033ad" font-size="18" font-weight="bold">Cardano Blockchain Network</text>
+  
+  <rect x="100" y="540" width="200" height="60" rx="8" fill="#0033ad" stroke="#001d6b" stroke-width="2"/>
+  <text x="200" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Smart Contract</text>
+  <text x="200" y="575" text-anchor="middle" fill="white" font-size="11">adaverc_registry</text>
+  <text x="200" y="590" text-anchor="middle" fill="white" font-size="11">Plutus V3 validator</text>
+  
+  <rect x="330" y="540" width="200" height="60" rx="8" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="430" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Metadata Storage</text>
+  <text x="430" y="575" text-anchor="middle" fill="white" font-size="11">Label 8434 (ADAV)</text>
+  <text x="430" y="590" text-anchor="middle" fill="white" font-size="11">Hash + form metadata</text>
+  
+  <rect x="560" y="540" width="200" height="60" rx="8" fill="#3730a3" stroke="#312e81" stroke-width="2"/>
+  <text x="660" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">UTxO Pool</text>
+  <text x="660" y="575" text-anchor="middle" fill="white" font-size="11">Contract UTxOs</text>
+  <text x="660" y="590" text-anchor="middle" fill="white" font-size="11">Concurrency support</text>
+  
+  <rect x="790" y="540" width="200" height="60" rx="8" fill="#581c87" stroke="#4c1d95" stroke-width="2"/>
+  <text x="890" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Network Consensus</text>
+  <text x="890" y="575" text-anchor="middle" fill="white" font-size="11">Ouroboros protocol</text>
+  <text x="890" y="590" text-anchor="middle" fill="white" font-size="11">Decentralized validation</text>
+  
+  <rect x="1020" y="540" width="200" height="60" rx="8" fill="#7e22ce" stroke="#6b21a8" stroke-width="2"/>
+  <text x="1120" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Public Ledger</text>
+  <text x="1120" y="575" text-anchor="middle" fill="white" font-size="11">Immutable records</text>
+  <text x="1120" y="590" text-anchor="middle" fill="white" font-size="11">Global verification</text>
+  
+  <!-- Deployment Environments -->
+  <rect x="50" y="640" width="1300" height="160" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="700" y="665" text-anchor="middle" fill="#059669" font-size="18" font-weight="bold">Deployment Environments &amp; CI/CD</text>
+  
+  <!-- Development -->
+  <rect x="80" y="690" width="200" height="80" rx="8" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="180" y="710" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Development</text>
+  <text x="180" y="725" text-anchor="middle" fill="#047857" font-size="10">• Local Apps Script IDE</text>
+  <text x="180" y="740" text-anchor="middle" fill="#047857" font-size="10">• Cardano testnet</text>
+  <text x="180" y="755" text-anchor="middle" fill="#047857" font-size="10">• Next.js local server</text>
+  
+  <!-- Staging -->
+  <rect x="310" y="690" width="200" height="80" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="410" y="710" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Staging</text>
+  <text x="410" y="725" text-anchor="middle" fill="#92400e" font-size="10">• Google Workspace test</text>
+  <text x="410" y="740" text-anchor="middle" fill="#92400e" font-size="10">• Cardano preprod</text>
+  <text x="410" y="755" text-anchor="middle" fill="#92400e" font-size="10">• Vercel preview</text>
+  
+  <!-- Production -->
+  <rect x="540" y="690" width="200" height="80" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="640" y="710" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Production</text>
+  <text x="640" y="725" text-anchor="middle" fill="#b91c1c" font-size="10">• Google Marketplace</text>
+  <text x="640" y="740" text-anchor="middle" fill="#b91c1c" font-size="10">• Cardano mainnet</text>
+  <text x="640" y="755" text-anchor="middle" fill="#b91c1c" font-size="10">• Vercel production</text>
+  
+  <!-- CI/CD Pipeline -->
+  <rect x="770" y="690" width="280" height="80" rx="8" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="910" y="710" text-anchor="middle" fill="#6b21a8" font-size="12" font-weight="bold">CI/CD Pipeline</text>
+  <text x="910" y="725" text-anchor="middle" fill="#6b21a8" font-size="10">• GitHub Actions</text>
+  <text x="910" y="740" text-anchor="middle" fill="#6b21a8" font-size="10">• Automated testing</text>
+  <text x="910" y="755" text-anchor="middle" fill="#6b21a8" font-size="10">• Smart contract deployment</text>
+  
+  <!-- Monitoring & Operations -->
+  <rect x="1080" y="690" width="240" height="80" rx="8" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+  <text x="1200" y="710" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">Monitoring &amp; Ops</text>
+  <text x="1200" y="725" text-anchor="middle" fill="#0e7490" font-size="10">• Real-time dashboards</text>
+  <text x="1200" y="740" text-anchor="middle" fill="#0e7490" font-size="10">• Alerting systems</text>
+  <text x="1200" y="755" text-anchor="middle" fill="#0e7490" font-size="10">• Log aggregation</text>
+  
+  <!-- Network & Security -->
+  <rect x="50" y="830" width="1300" height="120" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="700" y="855" text-anchor="middle" fill="#dc2626" font-size="18" font-weight="bold">Network Security &amp; Infrastructure</text>
+  
+  <!-- Google Security -->
+  <rect x="80" y="875" width="250" height="60" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="205" y="895" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Google Infrastructure Security</text>
+  <text x="205" y="910" text-anchor="middle" fill="#b91c1c" font-size="10">• VPC isolation • IAM controls</text>
+  <text x="205" y="925" text-anchor="middle" fill="#b91c1c" font-size="10">• TLS encryption • DDoS protection</text>
+  
+  <!-- External Security -->
+  <rect x="360" y="875" width="250" height="60" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="485" y="895" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">External Security</text>
+  <text x="485" y="910" text-anchor="middle" fill="#b91c1c" font-size="10">• WAF protection • SSL certificates</text>
+  <text x="485" y="925" text-anchor="middle" fill="#b91c1c" font-size="10">• API rate limiting • Input validation</text>
+  
+  <!-- DNS & CDN -->
+  <rect x="640" y="875" width="250" height="60" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="765" y="895" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">DNS &amp; CDN</text>
+  <text x="765" y="910" text-anchor="middle" fill="#b91c1c" font-size="10">• Cloudflare DNS • Global CDN</text>
+  <text x="765" y="925" text-anchor="middle" fill="#b91c1c" font-size="10">• Edge caching • DDoS mitigation</text>
+  
+  <!-- Backup & Recovery -->
+  <rect x="920" y="875" width="250" height="60" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1045" y="895" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="bold">Backup &amp; Recovery</text>
+  <text x="1045" y="910" text-anchor="middle" fill="#b91c1c" font-size="10">• Automated backups • Multi-region</text>
+  <text x="1045" y="925" text-anchor="middle" fill="#b91c1c" font-size="10">• Disaster recovery • Data retention</text>
+  
+  <!-- Data Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+  </defs>
+  
+  <!-- API Communication -->
+  <line x1="650" y1="215" x2="750" y2="215" stroke="#059669" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="700" y="205" text-anchor="middle" fill="#059669" font-size="12" font-weight="bold">HTTPS API</text>
+  
+  <!-- Blockchain Connection -->
+  <line x1="905" y1="290" x2="905" y2="480" stroke="#0033ad" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="920" y="385" fill="#0033ad" font-size="12" font-weight="bold">Blockchain TX</text>
+  
+  <!-- Deployment Flow -->
+  <line x1="280" y1="730" x2="300" y2="730" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="510" y1="730" x2="530" y2="730" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Performance Metrics -->
+  <rect x="50" y="970" width="1300" height="20" rx="3" fill="#f0f9ff" stroke="#0369a1" stroke-width="1"/>
+  <text x="70" y="985" fill="#1d4ed8" font-size="11">🚀 <tspan font-weight="bold">Performance:</tspan> &lt;100ms API response • 99.9% uptime • Auto-scaling 0-1000 instances • Global CDN &lt;50ms latency • Blockchain TX ~2min confirmation</text>
+</svg>

@@ -1,0 +1,294 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Detailed Component Architecture</text>
+  
+  <!-- Google Forms Add-on Section -->
+  <rect x="50" y="70" width="620" height="780" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
+  <text x="360" y="100" text-anchor="middle" fill="#4285f4" font-size="20" font-weight="bold">Google Forms Add-on Components</text>
+  
+  <!-- Trigger Management System -->
+  <rect x="80" y="120" width="260" height="140" rx="8" fill="#ffffff" stroke="#4285f4" stroke-width="2"/>
+  <text x="210" y="140" text-anchor="middle" fill="#4285f4" font-size="14" font-weight="bold">Trigger Management System</text>
+  
+  <rect x="90" y="155" width="110" height="40" rx="4" fill="#e8f0fe" stroke="#1565c0" stroke-width="1"/>
+  <text x="145" y="170" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Form Submit</text>
+  <text x="145" y="185" text-anchor="middle" fill="#1565c0" font-size="11">Triggers</text>
+  
+  <rect x="220" y="155" width="110" height="40" rx="4" fill="#e8f0fe" stroke="#1565c0" stroke-width="1"/>
+  <text x="275" y="170" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Time-based</text>
+  <text x="275" y="185" text-anchor="middle" fill="#1565c0" font-size="11">Triggers</text>
+  
+  <rect x="90" y="205" width="110" height="40" rx="4" fill="#e8f0fe" stroke="#1565c0" stroke-width="1"/>
+  <text x="145" y="220" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Lifecycle</text>
+  <text x="145" y="235" text-anchor="middle" fill="#1565c0" font-size="11">Management</text>
+  
+  <rect x="220" y="205" width="110" height="40" rx="4" fill="#e8f0fe" stroke="#1565c0" stroke-width="1"/>
+  <text x="275" y="220" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Error</text>
+  <text x="275" y="235" text-anchor="middle" fill="#1565c0" font-size="11">Recovery</text>
+  
+  <!-- Response Processing Engine -->
+  <rect x="360" y="120" width="280" height="140" rx="8" fill="#ffffff" stroke="#34a853" stroke-width="2"/>
+  <text x="500" y="140" text-anchor="middle" fill="#34a853" font-size="14" font-weight="bold">Response Processing Engine</text>
+  
+  <rect x="370" y="155" width="120" height="40" rx="4" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="430" y="170" text-anchor="middle" fill="#2e7d32" font-size="11" font-weight="bold">Data Extraction</text>
+  <text x="430" y="185" text-anchor="middle" fill="#2e7d32" font-size="11">& Validation</text>
+  
+  <rect x="510" y="155" width="120" height="40" rx="4" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="570" y="170" text-anchor="middle" fill="#2e7d32" font-size="11" font-weight="bold">Format</text>
+  <text x="570" y="185" text-anchor="middle" fill="#2e7d32" font-size="11">Standardization</text>
+  
+  <rect x="370" y="205" width="120" height="40" rx="4" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="430" y="220" text-anchor="middle" fill="#2e7d32" font-size="11" font-weight="bold">Batch</text>
+  <text x="430" y="235" text-anchor="middle" fill="#2e7d32" font-size="11">Processing</text>
+  
+  <rect x="510" y="205" width="120" height="40" rx="4" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
+  <text x="570" y="220" text-anchor="middle" fill="#2e7d32" font-size="11" font-weight="bold">Response</text>
+  <text x="570" y="235" text-anchor="middle" fill="#2e7d32" font-size="11">Aggregation</text>
+  
+  <!-- Hashing Implementation -->
+  <rect x="80" y="280" width="260" height="140" rx="8" fill="#ffffff" stroke="#9c27b0" stroke-width="2"/>
+  <text x="210" y="300" text-anchor="middle" fill="#9c27b0" font-size="14" font-weight="bold">Hashing Implementation</text>
+  
+  <rect x="90" y="315" width="110" height="40" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="145" y="330" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">SHA-256</text>
+  <text x="145" y="345" text-anchor="middle" fill="#7b1fa2" font-size="11">Algorithm</text>
+  
+  <rect x="220" y="315" width="110" height="40" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="275" y="330" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Deterministic</text>
+  <text x="275" y="345" text-anchor="middle" fill="#7b1fa2" font-size="11">Processing</text>
+  
+  <rect x="90" y="365" width="110" height="40" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="145" y="380" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Data</text>
+  <text x="145" y="395" text-anchor="middle" fill="#7b1fa2" font-size="11">Normalization</text>
+  
+  <rect x="220" y="365" width="110" height="40" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="275" y="380" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Hash</text>
+  <text x="275" y="395" text-anchor="middle" fill="#7b1fa2" font-size="11">Verification</text>
+  
+  <!-- External API Communication -->
+  <rect x="360" y="280" width="280" height="140" rx="8" fill="#ffffff" stroke="#f44336" stroke-width="2"/>
+  <text x="500" y="300" text-anchor="middle" fill="#f44336" font-size="14" font-weight="bold">External API Communication</text>
+  
+  <rect x="370" y="315" width="120" height="40" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="430" y="330" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">HTTPS</text>
+  <text x="430" y="345" text-anchor="middle" fill="#c62828" font-size="11">Transport</text>
+  
+  <rect x="510" y="315" width="120" height="40" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="570" y="330" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">Authentication</text>
+  <text x="570" y="345" text-anchor="middle" fill="#c62828" font-size="11">& Authorization</text>
+  
+  <rect x="370" y="365" width="120" height="40" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="430" y="380" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">Retry Logic</text>
+  <text x="430" y="395" text-anchor="middle" fill="#c62828" font-size="11">& Backoff</text>
+  
+  <rect x="510" y="365" width="120" height="40" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
+  <text x="570" y="380" text-anchor="middle" fill="#c62828" font-size="11" font-weight="bold">Rate</text>
+  <text x="570" y="395" text-anchor="middle" fill="#c62828" font-size="11">Limiting</text>
+  
+  <!-- Configuration Management -->
+  <rect x="80" y="440" width="560" height="120" rx="8" fill="#ffffff" stroke="#ff6d00" stroke-width="2"/>
+  <text x="360" y="460" text-anchor="middle" fill="#ff6d00" font-size="14" font-weight="bold">Configuration Management</text>
+  
+  <rect x="90" y="475" width="130" height="40" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="155" y="490" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">User Interface</text>
+  <text x="155" y="505" text-anchor="middle" fill="#e65100" font-size="11">Settings Panel</text>
+  
+  <rect x="240" y="475" width="130" height="40" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="305" y="490" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">Account</text>
+  <text x="305" y="505" text-anchor="middle" fill="#e65100" font-size="11">Linking</text>
+  
+  <rect x="390" y="475" width="130" height="40" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="455" y="490" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">Preferences</text>
+  <text x="455" y="505" text-anchor="middle" fill="#e65100" font-size="11">Storage</text>
+  
+  <rect x="540" y="475" width="90" height="40" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="585" y="490" text-anchor="middle" fill="#e65100" font-size="11" font-weight="bold">Validation</text>
+  <text x="585" y="505" text-anchor="middle" fill="#e65100" font-size="11">Rules</text>
+  
+  <!-- Logging & Monitoring -->
+  <rect x="80" y="580" width="560" height="120" rx="8" fill="#ffffff" stroke="#607d8b" stroke-width="2"/>
+  <text x="360" y="600" text-anchor="middle" fill="#607d8b" font-size="14" font-weight="bold">Logging &amp; Monitoring</text>
+  
+  <rect x="90" y="615" width="130" height="40" rx="4" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="155" y="630" text-anchor="middle" fill="#455a64" font-size="11" font-weight="bold">Execution</text>
+  <text x="155" y="645" text-anchor="middle" fill="#455a64" font-size="11">Logs</text>
+  
+  <rect x="240" y="615" width="130" height="40" rx="4" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="305" y="630" text-anchor="middle" fill="#455a64" font-size="11" font-weight="bold">Error</text>
+  <text x="305" y="645" text-anchor="middle" fill="#455a64" font-size="11">Tracking</text>
+  
+  <rect x="390" y="615" width="130" height="40" rx="4" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="455" y="630" text-anchor="middle" fill="#455a64" font-size="11" font-weight="bold">Performance</text>
+  <text x="455" y="645" text-anchor="middle" fill="#455a64" font-size="11">Metrics</text>
+  
+  <rect x="540" y="615" width="90" height="40" rx="4" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
+  <text x="585" y="630" text-anchor="middle" fill="#455a64" font-size="11" font-weight="bold">Debug</text>
+  <text x="585" y="645" text-anchor="middle" fill="#455a64" font-size="11">Info</text>
+  
+  <!-- Google Apps Script Environment -->
+  <rect x="80" y="720" width="560" height="100" rx="8" fill="#34a853" fill-opacity="0.1" stroke="#34a853" stroke-width="2"/>
+  <text x="360" y="740" text-anchor="middle" fill="#34a853" font-size="14" font-weight="bold">Google Apps Script Runtime Environment</text>
+  <text x="360" y="760" text-anchor="middle" fill="#2e7d32" font-size="12">Serverless execution • Google Cloud infrastructure • Built-in Google Workspace integration</text>
+  <text x="360" y="780" text-anchor="middle" fill="#2e7d32" font-size="12">Automatic scaling • Security sandbox • OAuth 2.0 authentication</text>
+  <text x="360" y="800" text-anchor="middle" fill="#2e7d32" font-size="12">6-minute execution limit • Daily quotas • Trigger management</text>
+  
+  <!-- External Application Section -->
+  <rect x="720" y="70" width="630" height="780" rx="15" fill="#0f172a" fill-opacity="0.05" stroke="#0f172a" stroke-width="3"/>
+  <text x="1035" y="100" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="bold">Adaverc External Application</text>
+  
+  <!-- API Gateway -->
+  <rect x="750" y="120" width="280" height="140" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="890" y="140" text-anchor="middle" fill="#6366f1" font-size="14" font-weight="bold">API Gateway</text>
+  
+  <rect x="760" y="155" width="120" height="40" rx="4" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="820" y="170" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Request</text>
+  <text x="820" y="185" text-anchor="middle" fill="#4338ca" font-size="11">Routing</text>
+  
+  <rect x="900" y="155" width="120" height="40" rx="4" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="960" y="170" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Rate</text>
+  <text x="960" y="185" text-anchor="middle" fill="#4338ca" font-size="11">Limiting</text>
+  
+  <rect x="760" y="205" width="120" height="40" rx="4" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="820" y="220" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Input</text>
+  <text x="820" y="235" text-anchor="middle" fill="#4338ca" font-size="11">Validation</text>
+  
+  <rect x="900" y="205" width="120" height="40" rx="4" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
+  <text x="960" y="220" text-anchor="middle" fill="#4338ca" font-size="11" font-weight="bold">Response</text>
+  <text x="960" y="235" text-anchor="middle" fill="#4338ca" font-size="11">Formatting</text>
+  
+  <!-- User Management System -->
+  <rect x="1050" y="120" width="270" height="140" rx="8" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="1185" y="140" text-anchor="middle" fill="#8b5cf6" font-size="14" font-weight="bold">User Management System</text>
+  
+  <rect x="1060" y="155" width="110" height="40" rx="4" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="1115" y="170" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="bold">Registration</text>
+  <text x="1115" y="185" text-anchor="middle" fill="#7c3aed" font-size="11">&amp; Auth</text>
+  
+  <rect x="1190" y="155" width="110" height="40" rx="4" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="1245" y="170" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="bold">API Key</text>
+  <text x="1245" y="185" text-anchor="middle" fill="#7c3aed" font-size="11">Management</text>
+  
+  <rect x="1060" y="205" width="110" height="40" rx="4" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="1115" y="220" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="bold">Access</text>
+  <text x="1115" y="235" text-anchor="middle" fill="#7c3aed" font-size="11">Control</text>
+  
+  <rect x="1190" y="205" width="110" height="40" rx="4" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="1245" y="220" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="bold">Session</text>
+  <text x="1245" y="235" text-anchor="middle" fill="#7c3aed" font-size="11">Management</text>
+  
+  <!-- Blockchain Integration Service -->
+  <rect x="750" y="280" width="280" height="140" rx="8" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="890" y="300" text-anchor="middle" fill="#059669" font-size="14" font-weight="bold">Blockchain Integration Service</text>
+  
+  <rect x="760" y="315" width="120" height="40" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="820" y="330" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">Transaction</text>
+  <text x="820" y="345" text-anchor="middle" fill="#047857" font-size="11">Builder</text>
+  
+  <rect x="900" y="315" width="120" height="40" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="960" y="330" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">Smart Contract</text>
+  <text x="960" y="345" text-anchor="middle" fill="#047857" font-size="11">Interface</text>
+  
+  <rect x="760" y="365" width="120" height="40" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="820" y="380" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">UTxO</text>
+  <text x="820" y="395" text-anchor="middle" fill="#047857" font-size="11">Management</text>
+  
+  <rect x="900" y="365" width="120" height="40" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
+  <text x="960" y="380" text-anchor="middle" fill="#047857" font-size="11" font-weight="bold">Fee</text>
+  <text x="960" y="395" text-anchor="middle" fill="#047857" font-size="11">Optimization</text>
+  
+  <!-- Verification Engine -->
+  <rect x="1050" y="280" width="270" height="140" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="1185" y="300" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">Verification Engine</text>
+  
+  <rect x="1060" y="315" width="110" height="40" rx="4" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1115" y="330" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Hash</text>
+  <text x="1115" y="345" text-anchor="middle" fill="#b91c1c" font-size="11">Comparison</text>
+  
+  <rect x="1190" y="315" width="110" height="40" rx="4" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1245" y="330" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Blockchain</text>
+  <text x="1245" y="345" text-anchor="middle" fill="#b91c1c" font-size="11">Query</text>
+  
+  <rect x="1060" y="365" width="110" height="40" rx="4" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1115" y="380" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Certificate</text>
+  <text x="1115" y="395" text-anchor="middle" fill="#b91c1c" font-size="11">Generation</text>
+  
+  <rect x="1190" y="365" width="110" height="40" rx="4" fill="#fef2f2" stroke="#b91c1c" stroke-width="1"/>
+  <text x="1245" y="380" text-anchor="middle" fill="#b91c1c" font-size="11" font-weight="bold">Audit</text>
+  <text x="1245" y="395" text-anchor="middle" fill="#b91c1c" font-size="11">Trail</text>
+  
+  <!-- Dashboard Interface -->
+  <rect x="750" y="440" width="570" height="120" rx="8" fill="#ffffff" stroke="#0891b2" stroke-width="2"/>
+  <text x="1035" y="460" text-anchor="middle" fill="#0891b2" font-size="14" font-weight="bold">Dashboard Interface</text>
+  
+  <rect x="760" y="475" width="130" height="40" rx="4" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="825" y="490" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">Form</text>
+  <text x="825" y="505" text-anchor="middle" fill="#0e7490" font-size="11">Management</text>
+  
+  <rect x="910" y="475" width="130" height="40" rx="4" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="975" y="490" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">Status</text>
+  <text x="975" y="505" text-anchor="middle" fill="#0e7490" font-size="11">Visualization</text>
+  
+  <rect x="1060" y="475" width="130" height="40" rx="4" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="1125" y="490" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">Analytics</text>
+  <text x="1125" y="505" text-anchor="middle" fill="#0e7490" font-size="11">&amp; Reports</text>
+  
+  <rect x="1210" y="475" width="100" height="40" rx="4" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <text x="1260" y="490" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">Export</text>
+  <text x="1260" y="505" text-anchor="middle" fill="#0e7490" font-size="11">Tools</text>
+  
+  <!-- Data Storage Layer -->
+  <rect x="750" y="580" width="570" height="120" rx="8" fill="#ffffff" stroke="#7c2d12" stroke-width="2"/>
+  <text x="1035" y="600" text-anchor="middle" fill="#7c2d12" font-size="14" font-weight="bold">Data Storage Layer</text>
+  
+  <rect x="760" y="615" width="130" height="40" rx="4" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="825" y="630" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">User</text>
+  <text x="825" y="645" text-anchor="middle" fill="#9a3412" font-size="11">Database</text>
+  
+  <rect x="910" y="615" width="130" height="40" rx="4" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="975" y="630" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">Transaction</text>
+  <text x="975" y="645" text-anchor="middle" fill="#9a3412" font-size="11">Records</text>
+  
+  <rect x="1060" y="615" width="130" height="40" rx="4" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="1125" y="630" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">Configuration</text>
+  <text x="1125" y="645" text-anchor="middle" fill="#9a3412" font-size="11">Cache</text>
+  
+  <rect x="1210" y="615" width="100" height="40" rx="4" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
+  <text x="1260" y="630" text-anchor="middle" fill="#9a3412" font-size="11" font-weight="bold">Logs</text>
+  <text x="1260" y="645" text-anchor="middle" fill="#9a3412" font-size="11">&amp; Metrics</text>
+  
+  <!-- Cardano Blockchain Layer -->
+  <rect x="750" y="720" width="570" height="100" rx="8" fill="#0033ad" fill-opacity="0.1" stroke="#0033ad" stroke-width="2"/>
+  <text x="1035" y="740" text-anchor="middle" fill="#0033ad" font-size="14" font-weight="bold">Cardano Blockchain Infrastructure</text>
+  <text x="1035" y="760" text-anchor="middle" fill="#001d6b" font-size="12">Smart Contract: adaverc_registry • Metadata Label: 8434 • UTxO Model</text>
+  <text x="1035" y="780" text-anchor="middle" fill="#001d6b" font-size="12">Blockfrost API • Network validation • Immutable storage</text>
+  <text x="1035" y="800" text-anchor="middle" fill="#001d6b" font-size="12">Transaction fees: ~2.175 ADA per hash • Verification: Free queries</text>
+  
+  <!-- Communication Arrow -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+  </defs>
+  
+  <line x1="670" y1="350" x2="720" y2="350" stroke="#ef4444" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="695" y="340" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="bold">HTTPS API</text>
+  <text x="695" y="365" text-anchor="middle" fill="#ef4444" font-size="11">Secure Channel</text>
+  
+  <!-- Internal Communication Arrows within Add-on -->
+  <line x1="210" y1="260" x2="210" y2="270" stroke="#4285f4" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="340" y1="190" x2="350" y2="190" stroke="#34a853" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="260" x2="500" y2="270" stroke="#9c27b0" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Internal Communication Arrows within External App -->
+  <line x1="890" y1="260" x2="890" y2="270" stroke="#059669" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1030" y1="190" x2="1040" y2="190" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1185" y1="260" x2="1185" y2="270" stroke="#dc2626" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Data flow indicators -->
+  <rect x="50" y="860" width="1300" height="30" rx="5" fill="#f0f9ff" stroke="#0369a1" stroke-width="1"/>
+  <text x="700" y="875" text-anchor="middle" fill="#0369a1" font-size="12" font-weight="bold">Component Communication: Trigger Events → Data Processing → Hash Generation → API Transmission → Blockchain Storage → Verification</text>
+</svg>
