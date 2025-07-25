@@ -3,7 +3,7 @@
   <rect width="1400" height="900" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Security &amp; Privacy Architecture</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata Security &amp; Privacy Architecture</text>
   
   <!-- Google Secure Environment -->
   <rect x="50" y="80" width="600" height="700" rx="15" fill="#34a853" fill-opacity="0.05" stroke="#34a853" stroke-width="3"/>

@@ -3,7 +3,7 @@
   <rect width="1400" height="1000" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">Adaverc Hash Verification Process</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata Hash Verification Process</text>
   
   <!-- Step 1: User Provides Data -->
   <rect x="50" y="80" width="300" height="150" rx="10" fill="#ffffff" stroke="#4285f4" stroke-width="2"/>
@@ -124,10 +124,10 @@
   <text x="205" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Blockchain Explorer</text>
   <text x="205" y="785" text-anchor="middle" fill="#92400e" font-size="10">cardanoscan.io, cexplorer.io</text>
   
-  <!-- Adaverc Public API -->
+  <!-- notamperdata Public API -->
   <rect x="360" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
-  <text x="485" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">Adaverc Public API</text>
-  <text x="485" y="785" text-anchor="middle" fill="#92400e" font-size="10">verify.adaverc.com/hash/{hash}</text>
+  <text x="485" y="770" text-anchor="middle" fill="#92400e" font-size="12" font-weight="bold">notamperdata Public API</text>
+  <text x="485" y="785" text-anchor="middle" fill="#92400e" font-size="10">verify.notamperdata.com/hash/{hash}</text>
   
   <!-- Direct Blockfrost -->
   <rect x="640" y="750" width="250" height="50" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
