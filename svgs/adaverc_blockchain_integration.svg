@@ -3,11 +3,11 @@
   <rect width="1400" height="1000" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata Blockchain Integration with UTxO Management</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">NoTamperData Blockchain Integration with UTxO Management</text>
   
   <!-- External Application Section -->
   <rect x="50" y="80" width="500" height="380" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2"/>
-  <text x="300" y="105" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">notamperdata External Application</text>
+  <text x="300" y="105" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">NoTamperData External Application</text>
   
   <!-- Transaction Builder -->
   <rect x="80" y="130" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
@@ -26,7 +26,7 @@
   <!-- Smart Contract Interface -->
   <rect x="80" y="230" width="180" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
   <text x="170" y="250" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">Contract Interface</text>
-  <text x="170" y="265" text-anchor="middle" fill="#047857" font-size="10">• notamperdata_registry</text>
+  <text x="170" y="265" text-anchor="middle" fill="#047857" font-size="10">• NoTamperData_registry</text>
   <text x="170" y="280" text-anchor="middle" fill="#047857" font-size="10">• Validator calls</text>
   <text x="170" y="295" text-anchor="middle" fill="#047857" font-size="10">• Script execution</text>
   
@@ -50,7 +50,7 @@
   
   <!-- Smart Contract -->
   <rect x="630" y="130" width="200" height="100" rx="8" fill="#0033ad" stroke="#001d6b" stroke-width="2"/>
-  <text x="730" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">notamperdata_registry</text>
+  <text x="730" y="155" text-anchor="middle" fill="white" font-size="14" font-weight="bold">NoTamperData_registry</text>
   <text x="730" y="175" text-anchor="middle" fill="white" font-size="12">Smart Contract</text>
   <text x="730" y="195" text-anchor="middle" fill="white" font-size="11">Minimal validator</text>
   <text x="730" y="210" text-anchor="middle" fill="white" font-size="11">UTxO structure</text>

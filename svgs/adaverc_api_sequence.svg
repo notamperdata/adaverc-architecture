@@ -3,7 +3,7 @@
   <rect width="1400" height="900" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata API Sequence Diagram</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">NoTamperData API Sequence Diagram</text>
   
   <!-- Actors -->
   <rect x="80" y="80" width="120" height="60" rx="8" fill="#4285f4" stroke="#1565c0" stroke-width="2"/>

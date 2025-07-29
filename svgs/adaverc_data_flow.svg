@@ -3,7 +3,7 @@
   <rect width="1200" height="800" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="600" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata End-to-End Data Flow</text>
+  <text x="600" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">NoTamperData End-to-End Data Flow</text>
   
   <!-- Step 1: Form Submission -->
   <rect x="50" y="80" width="140" height="100" rx="10" fill="#34a853" stroke="#137333" stroke-width="2"/>

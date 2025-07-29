@@ -3,7 +3,7 @@
   <rect width="1400" height="900" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata Detailed Component Architecture</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">NoTamperData Detailed Component Architecture</text>
   
   <!-- Google Forms Add-on Section -->
   <rect x="50" y="70" width="620" height="780" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
@@ -138,7 +138,7 @@
   
   <!-- External Application Section -->
   <rect x="720" y="70" width="630" height="780" rx="15" fill="#0f172a" fill-opacity="0.05" stroke="#0f172a" stroke-width="3"/>
-  <text x="1035" y="100" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="bold">notamperdata External Application</text>
+  <text x="1035" y="100" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="bold">NoTamperData External Application</text>
   
   <!-- API Gateway -->
   <rect x="750" y="120" width="280" height="140" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
@@ -263,7 +263,7 @@
   <!-- Cardano Blockchain Layer -->
   <rect x="750" y="720" width="570" height="100" rx="8" fill="#0033ad" fill-opacity="0.1" stroke="#0033ad" stroke-width="2"/>
   <text x="1035" y="740" text-anchor="middle" fill="#0033ad" font-size="14" font-weight="bold">Cardano Blockchain Infrastructure</text>
-  <text x="1035" y="760" text-anchor="middle" fill="#001d6b" font-size="12">Smart Contract: notamperdata_registry • Metadata Label: 8434 • UTxO Model</text>
+  <text x="1035" y="760" text-anchor="middle" fill="#001d6b" font-size="12">Smart Contract: NoTamperData_registry • Metadata Label: 8434 • UTxO Model</text>
   <text x="1035" y="780" text-anchor="middle" fill="#001d6b" font-size="12">Blockfrost API • Network validation • Immutable storage</text>
   <text x="1035" y="800" text-anchor="middle" fill="#001d6b" font-size="12">Transaction fees: ~2.175 ADA per hash • Verification: Free queries</text>
   

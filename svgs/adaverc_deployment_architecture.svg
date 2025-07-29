@@ -3,7 +3,7 @@
   <rect width="1400" height="1000" fill="#f8fafc"/>
   
   <!-- Title -->
-  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">notamperdata Deployment Architecture</text>
+  <text x="700" y="40" text-anchor="middle" fill="#1e293b" font-size="24" font-weight="bold">NoTamperData Deployment Architecture</text>
   
   <!-- Google Cloud Infrastructure -->
   <rect x="50" y="80" width="600" height="380" rx="15" fill="#4285f4" fill-opacity="0.05" stroke="#4285f4" stroke-width="3"/>
@@ -14,7 +14,7 @@
   <text x="205" y="165" text-anchor="middle" fill="#34a853" font-size="14" font-weight="bold">Google Apps Script</text>
   
   <rect x="100" y="185" width="210" height="80" rx="5" fill="#e8f5e8" stroke="#2e7d32" stroke-width="1"/>
-  <text x="205" y="205" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">notamperdata Add-on Runtime</text>
+  <text x="205" y="205" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">NoTamperData Add-on Runtime</text>
   <text x="205" y="220" text-anchor="middle" fill="#2e7d32" font-size="10">• Serverless execution</text>
   <text x="205" y="235" text-anchor="middle" fill="#2e7d32" font-size="10">• Auto-scaling (0-100 instances)</text>
   <text x="205" y="250" text-anchor="middle" fill="#2e7d32" font-size="10">• 6-minute execution limit</text>
@@ -68,7 +68,7 @@
   <text x="905" y="165" text-anchor="middle" fill="#059669" font-size="14" font-weight="bold">Next.js Application</text>
   
   <rect x="800" y="185" width="210" height="80" rx="5" fill="#d1fae5" stroke="#047857" stroke-width="1"/>
-  <text x="905" y="205" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">notamperdata API Server</text>
+  <text x="905" y="205" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold">NoTamperData API Server</text>
   <text x="905" y="220" text-anchor="middle" fill="#047857" font-size="10">• Vercel deployment</text>
   <text x="905" y="235" text-anchor="middle" fill="#047857" font-size="10">• Auto-scaling serverless</text>
   <text x="905" y="250" text-anchor="middle" fill="#047857" font-size="10">• Global edge network</text>
@@ -119,7 +119,7 @@
   
   <rect x="100" y="540" width="200" height="60" rx="8" fill="#0033ad" stroke="#001d6b" stroke-width="2"/>
   <text x="200" y="560" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Smart Contract</text>
-  <text x="200" y="575" text-anchor="middle" fill="white" font-size="11">notamperdata_registry</text>
+  <text x="200" y="575" text-anchor="middle" fill="white" font-size="11">NoTamperData_registry</text>
   <text x="200" y="590" text-anchor="middle" fill="white" font-size="11">Plutus V3 validator</text>
   
   <rect x="330" y="540" width="200" height="60" rx="8" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
