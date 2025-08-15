@@ -60,7 +60,7 @@
   
   <!-- 5. Authentication & Validation -->
   <rect x="280" y="355" width="160" height="30" rx="3" fill="#fff3e0" stroke="#ff6d00" stroke-width="1"/>
-  <text x="360" y="375" text-anchor="middle" fill="#e65100" font-size="11">5. Validate API key & input</text>
+  <text x="360" y="375" text-anchor="middle" fill="#e65100" font-size="11">5. Validate access token & input</text>
   
   <!-- 6. Forward to Blockchain Service -->
   <line x1="360" y1="405" x2="580" y2="405" stroke="#059669" stroke-width="2" marker-end="url(#arrow)"/>

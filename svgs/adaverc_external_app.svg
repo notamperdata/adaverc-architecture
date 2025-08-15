@@ -23,7 +23,7 @@
   <!-- Authentication Middleware -->
   <rect x="270" y="175" width="150" height="70" rx="5" fill="#eef2ff" stroke="#4338ca" stroke-width="1"/>
   <text x="345" y="195" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="bold">Auth Middleware</text>
-  <text x="345" y="210" text-anchor="middle" fill="#4338ca" font-size="10">API key validation</text>
+  <text x="345" y="210" text-anchor="middle" fill="#4338ca" font-size="10">access token validation</text>
   <text x="345" y="225" text-anchor="middle" fill="#4338ca" font-size="10">Bearer token verify</text>
   <text x="345" y="240" text-anchor="middle" fill="#4338ca" font-size="10">Rate limiting</text>
   
@@ -72,9 +72,9 @@
   <text x="160" y="380" text-anchor="middle" fill="#7c3aed" font-size="10">UTxO watching</text>
   <text x="160" y="395" text-anchor="middle" fill="#7c3aed" font-size="10">ADA amount tracking</text>
   
-  <!-- API Key Generator -->
+  <!-- access token Generator -->
   <rect x="240" y="345" width="120" height="60" rx="5" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
-  <text x="300" y="365" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">API Key Generator</text>
+  <text x="300" y="365" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="bold">access token Generator</text>
   <text x="300" y="380" text-anchor="middle" fill="#7c3aed" font-size="10">Auto key creation</text>
   <text x="300" y="395" text-anchor="middle" fill="#7c3aed" font-size="10">Usage tier mapping</text>
   
@@ -167,9 +167,9 @@
   <rect x="80" y="510" width="1240" height="120" rx="10" fill="#ffffff" stroke="#0891b2" stroke-width="2"/>
   <text x="700" y="535" text-anchor="middle" fill="#0891b2" font-size="16" font-weight="bold">Minimal Dashboard Interface (Next.js Frontend)</text>
   
-  <!-- API Key Status -->
+  <!-- access token Status -->
   <rect x="100" y="555" width="160" height="50" rx="5" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
-  <text x="180" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">API Key Status</text>
+  <text x="180" y="575" text-anchor="middle" fill="#0e7490" font-size="12" font-weight="bold">access token Status</text>
   <text x="180" y="590" text-anchor="middle" fill="#0e7490" font-size="10">Usage tracking, Credits</text>
   
   <!-- Transaction History -->
@@ -206,9 +206,9 @@
   <rect x="80" y="660" width="1240" height="120" rx="10" fill="#ffffff" stroke="#7c2d12" stroke-width="2"/>
   <text x="700" y="685" text-anchor="middle" fill="#7c2d12" font-size="16" font-weight="bold">Minimal Data Storage Layer</text>
   
-  <!-- API Key Database -->
+  <!-- access token Database -->
   <rect x="100" y="705" width="180" height="50" rx="5" fill="#fed7aa" stroke="#9a3412" stroke-width="1"/>
-  <text x="190" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">API Key Store</text>
+  <text x="190" y="725" text-anchor="middle" fill="#9a3412" font-size="12" font-weight="bold">access token Store</text>
   <text x="190" y="740" text-anchor="middle" fill="#9a3412" font-size="10">Key → Credits mapping</text>
   
   <!-- Transaction Records -->
@@ -282,7 +282,7 @@
   <!-- Payment Flow -->
   <rect x="80" y="920" width="1240" height="60" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
   <text x="700" y="940" text-anchor="middle" fill="#1d4ed8" font-size="14" font-weight="bold">Web3 Payment Flow</text>
-  <text x="100" y="955" fill="#1d4ed8" font-size="11">1. User sends ADA to platform wallet → 2. System detects payment → 3. Auto-generates API key</text>
+  <text x="100" y="955" fill="#1d4ed8" font-size="11">1. User sends ADA to platform wallet → 2. System detects payment → 3. Auto-generates access token</text>
   <text x="100" y="970" fill="#1d4ed8" font-size="11">4. Credits assigned based on ADA amount → 5. API calls deduct credits → 6. No registration required</text>
   
   <text x="800" y="955" fill="#1d4ed8" font-size="11">• 10 ADA = 1000 API calls • 50 ADA = 6000 API calls</text>
@@ -331,7 +331,7 @@
   <rect x="80" y="920" width="1240" height="50" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
   <text x="700" y="940" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">Infrastructure Specifications</text>
   <text x="100" y="955" fill="#16a34a" font-size="11">• Deployment: Vercel/AWS/Docker containers • Auto-scaling based on load</text>
-  <text x="100" y="965" fill="#16a34a" font-size="11">• API Rate Limits: 1000 req/min per API key • Global CDN for static assets</text>
+  <text x="100" y="965" fill="#16a34a" font-size="11">• API Rate Limits: 1000 req/min per access token • Global CDN for static assets</text>
   
   <text x="700" y="955" fill="#16a34a" font-size="11">• Database: Multi-region replication • Redis caching layer</text>
   <text x="700" y="965" fill="#16a34a" font-size="11">• Security: WAF, DDoS protection, encryption at rest & transit</text>

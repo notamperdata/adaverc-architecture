@@ -118,7 +118,7 @@
   <!-- Authentication -->
   <rect x="240" y="405" width="120" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1"/>
   <text x="300" y="425" text-anchor="middle" fill="#c62828" font-size="12" font-weight="bold">Authentication</text>
-  <text x="300" y="440" text-anchor="middle" fill="#c62828" font-size="10">API key headers</text>
+  <text x="300" y="440" text-anchor="middle" fill="#c62828" font-size="10">access token headers</text>
   <text x="300" y="450" text-anchor="middle" fill="#c62828" font-size="10">Bearer tokens</text>
   
   <!-- Retry Logic -->
@@ -165,7 +165,7 @@
   <rect x="800" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
   <text x="860" y="425" text-anchor="middle" fill="#455a64" font-size="12" font-weight="bold">Account Linking</text>
   <text x="860" y="440" text-anchor="middle" fill="#455a64" font-size="10">OAuth flow</text>
-  <text x="860" y="450" text-anchor="middle" fill="#455a64" font-size="10">API key storage</text>
+  <text x="860" y="450" text-anchor="middle" fill="#455a64" font-size="10">access token storage</text>
   
   <!-- Preferences Storage -->
   <rect x="940" y="405" width="120" height="50" rx="5" fill="#eceff1" stroke="#455a64" stroke-width="1"/>
